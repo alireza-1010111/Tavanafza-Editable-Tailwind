@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/svg/TAS 1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/svg/TAS2.svg" type="image/x-icon">
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="stylesheet" href="./font.css">
     <title>تــوان‌ افــزا</title>
 </head>
 
 <body class="min-w-[300px]">
-    <header class="relative z-10 h-[60px] min-w-[300px] bg-[#1F3A56] lg:h-[120px] lg:w-full">
+    <header class="">
         <nav
-            class="relative top-[30px] flex h-[60px] max-w-full items-center justify-between rounded-[25px] bg-white mx-[40px] lg:top-[60px] lg:mx-[100px] lg:h-[120px]">
+            class="fixed z-10 w-full flex h-[70px] max-w-full items-center justify-between bg-sky-900/90 backdrop-blur-[10px] px-0 sm:px-2 shadow-lg shadow-gray-900/55 lg:h-[120px]">
             <!-- Navbar Logo -->
             <div class="flex items-center h-[60px] px-1.5 lg:h-[120px] animate-visibleity">
-                <img class="mr-1.5 lg:size-[100px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo">
-                <h1 class="text-[20px] font-semibold text-[#050C9C] lg:text-[30px] xl:text-[60px]">تـوان‌ افـزا</h1>
+                <img class="mr-1.5 size-[50px] lg:size-[100px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo">
+                <h1 class="text-[26px] font-semibold text-white lg:text-[48px] xl:text-[64px]">تـوان‌ افـزا</h1>
             </div>
             <!-- mobile menu -->
-            <div class="flex flex-row-reverse items-center justify-between relative z-20">
+            <div class="flex z-50 flex-row-reverse items-center justify-between relative">
                 <input type="checkbox" id="hamburger" class="peer hidden">
                 <label for="hamburger">
                     <img class="px-6 pt-0 animate-visibleity lg:hidden" src="./assets/svg/Hamburger menu.svg"
                         alt="Hamburger">
                 </label>
                 <div
-                    class="fixed top-0 right-0 z-50 flex h-full flex-col translate-x-[300%] bg-[#1f3a5681] backdrop-blur-[12px] transition-transform delay-75 duration-700 ease-in-out peer-checked:translate-x-0 *:px-3.5 *:py-4 *:pl-10 *:font-semibold *:text-white *:text-[unset] *:md:text-[20px] *:xl:text-[24px] md:w-2/5">
+                    class="fixed z-50 top-0 right-0  flex h-[1440px] flex-col translate-x-[300%] bg-gradient-to-bl from-40% from-sky-900 to-80% to-sky-700 shadow-2xl shadow-sky-200 backdrop-blur-lg  transition-transform delay-75 duration-700 ease-in-out peer-checked:translate-x-0 *:px-3.5 *:py-4 *:pl-10 *:font-semibold *:text-white *:md:text-[20px] *:xl:text-[24px] md:w-2/5">
                     <div class="relative mb-7">
                         <label for="hamburger">
                             <img class="absolute left-2.5 top-4 md:size-7" src="./assets/svg/cross-svgrepo-com.svg"
@@ -35,7 +35,7 @@
                         </label>
                     </div>
                     <a href="./index.html">صـفـحـه نـخـسـت</a>
-                    <div>
+                    <div class="">
                         <input type="checkbox" id="showItems" class="peer hidden">
                         <label for="showItems" class="flex gap-x-2">سـیـسـتم هـای کـنـترل دســتی</label>
                         <img src="./assets/svg/arrow-down-angle-svgrepo-com copy.svg" alt=""
@@ -54,54 +54,70 @@
             <!-- desktop menu -->
             <div
                 class="hidden px-[15px] lg:flex items-center justify-between gap-x-6 *:mim-w-full *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:transition-all *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 animate-visibleity">
-                <a class="xl:text-[24px] lg:text-[20px] font-medium hover:-translate-y-1 hover:scale-110 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="./index.html">صفحه نخست</a>
                 <div class="group relative">
                     <div class="flex py-5">
-                        <a class="xl:text-[24px] lg:text-[20px] font-medium" href="">سیستم های کنترل دستی</a>
+                        <a class="xl:text-[24px] text-white lg:text-[20px] font-medium" href="">سیستم های کنترل دستی</a>
                         <img class="mr-1 pt-1 " src="./assets/svg/arrow-down-angle-svgrepo-com.svg" alt="">
                     </div>
                     <div
-                        class="opacity-0 translate-y-[-700px] group-hover:opacity-100 group-hover:translate-y-0 transition-all delay-75 duration-700 ease-in-out bg-[#0068d60a] backdrop-blur-[20px] divide divide-y-[1px] divide-black/20 w-full rounded-[10px] flex flex-col absolute top-15 border-t-4 border-yellow-300">
-                        <a class="text-[#1F3A56] font-semibold text-[20px] py-2 text-center hover:bg-[#1F3A56F2] hover:text-white rounded-[10px] transition-all delay-75 duration-700"
+                        class="opacity-0  translate-y-[-700px] group-hover:opacity-100 group-hover:translate-y-0 transition-all delay-75 duration-700 ease-in-out bg-sky-700/30 backdrop-blur-[40px] divide divide-y-[1px] divide-black/20 w-full rounded-[10px] flex flex-col absolute top-20 border-t-4 border-yellow-300">
+                        <a class="text-sky-100 font-semibold text-[20px] py-2 text-center hover:bg-sky-900 hover:text-white rounded-[10px] transition-all delay-75 duration-700"
                             href="">تــوان ۱</a>
-                        <a class="text-[#1F3A56] font-semibold text-[20px] py-2 text-center hover:bg-[#1F3A56F2] hover:text-white rounded-[10px] transition-all delay-75 duration-700"
+                        <a class="text-sky-100 font-semibold text-[20px] py-2 text-center hover:bg-sky-900 hover:text-white rounded-[10px] transition-all delay-75 duration-700"
                             href="">تــوان ۲</a>
-                        <a class="text-[#1F3A56] font-semibold text-[20px] py-2 text-center hover:bg-[#1F3A56F2] hover:text-white rounded-[10px] transition-all delay-75 duration-700"
+                        <a class="text-sky-100 font-semibold text-[20px] py-2 text-center hover:bg-sky-900 hover:text-white rounded-[10px] transition-all delay-75 duration-700"
                             href="">تــوان۳</a>
                     </div>
                 </div>
-                <a class="xl:text-[24px] lg:text-[20px] font-medium hover:-translate-y-1 hover:scale-110 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="">درباره ما</a>
-                <a class="xl:text-[24px] lg:text-[20px] font-medium hover:-translate-y-1 hover:scale-110 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="">ارتباط با ما</a>
             </div>
         </nav>
     </header>
-    <main class="relative min-w-[300px]">
+    <main class="relative min-w-[300px] pt-[70px] lg:pt-[120px]">
         <!-- Banner background -->
-        <section>
-            <img class="mt-15 min-w-[300px] animate-rounded lg:mt-20 lg:w-full max-[340px]:mt-8 max-[310px]:mt-5"
-                src="./assets/svg/c91fe2e717b41181407148e476dc6ef3 (1).svg" alt="">
+        <section class="mb-[40px]">
             <div
-                class="absolute top-0 m-auto flex w-full flex-col items-center justify-center gap-6 max-[340px]:top-5 max-[310px]:top-8 lg:gap-12 lg:top-10 xl:top-25 max-[340px]:gap-2 max-[310px]:gap-1">
+                class="bg-gradient-to-bl from-50% from-sky-900 to-100% to-sky-600 relative h-180">
                 <h1
-                    class="text-center font-BTraffic font-bold text-[38px] text-[#050C9C]  max-[340px]:text-[28px] sm:text-[58px] md:font-semibold lg:text-[72px] xl:text-[82px] xl:font-bold animate-slideDown5">
-                    کـارگـاه تـوان افـزا
+                    class="text-[38px] font-bold text-white px-4 pt-16 w-[80%] leading-9">
+                    سیستم های کنترل دستی خودرو
                 </h1>
-                <p id="typewriter"
-                    class="text-[22px] lg:text-[62px] sm:text-[42px] xl:text-[65px] text-center lg:mx-30 mx-10 pr-2">
+                <!-- <p id="typewriter"
+                    class="text-[22px] text-white lg:text-[62px] sm:text-[42px] xl:text-[65px] text-center lg:mx-20 mx-6 pr-0">
+                    تولید کننده دستگاه های کنترل دستی اتومبیل ویژه جانبازان و معلولین (گاز،ترمز،کلاچ)
+                </p> -->
+                <p class="text-[21px] w-[90%] px-4 text-white pt-4 font-medium">
+                    راهکاری مطمئن برای رانندگی آسان و ایمن برای جانبازان و افراد دارای معلولیت
                 </p>
+                <div class="mt-6 px-4">
+                    <button class="w-[160px] h-[50px] bg-yellow-500 rounded-[10px] font-semibold">
+                        <a class="text-[18px] transition-all" href="#goProduct">مشاهده محصولات</a>
+                    </button>
+                    <button class="w-[120px] h-[50px] mr-4 font-semibold rounded-[10px] bg-white ">
+                        <a class="text-sky-900 text-[18px]" href="">تماس با ما</a>
+                    </button>
+                </div>
+                <div class="">
+                    <img class="size-[320px] m-auto mt-10" src="./assets/svg/undraw_car-repair_wski.svg" alt="">
+                </div>
             </div>
         </section>
-        <!-- Banner background -->
-        <!-- <section class="absolute top-10 w-full min-w-[300px] max-[310px]:top-12">
-            <img class="absolute w-full -top-120 max-[340px]:-top-24 max-[400px]:-top-28 max-[430px]:-top-32 max-[480px]:-top-45 max-[540px]:-top-58 max-[640px]:-top-68 max-[690px]:-top-60 max-[760px]:-top-70 max-[840px]:-top-80 max-[920px]:-top-98 max-[990px]:-top-105 max-[1024px]:-top-110 max-[1100px]:-top-80 max-[1200px]:-top-90 max-[1280px]:-top-100 max-[1360px]:-top-110 max-[1440px]:-top-120 max-[1550px]:-top-140 max-[1750px]:-top-130"
-                src="./assets/svg/Frame 1.svg" alt="">
+        <section class="mb-12">
+            <h1 id="goProduct" class="text-sky-900 text-[32px] font-semibold text-center">سیستم های کنترل دستی</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-4">
+                <div class="w-[90%] h-[320px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10"></div>
+                <div class="w-[90%] h-[320px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10"></div>
+                <div class="w-[90%] h-[320px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10"></div>
+            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="./typed.js"></script> -->
+    <!-- <script src="./typed.js"></script> -->
 </body>
 
 </html>
