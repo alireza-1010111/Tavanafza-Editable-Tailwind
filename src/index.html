@@ -13,17 +13,17 @@
 <body class="min-w-[300px]">
     <header class="">
         <nav
-            class="fixed z-10 w-full flex h-[70px] max-w-full items-center justify-between bg-sky-900/90 backdrop-blur-[10px] px-0 sm:px-2 shadow-lg shadow-gray-900/55 lg:h-[120px]">
+            class="fixed z-10 w-full flex h-[70px] max-w-full items-center justify-between bg-sky-950/90 backdrop-blur-[15px]  shadow-lg shadow-gray-900/55 lg:h-[120px] md:px-10 lg:px-20">
             <!-- Navbar Logo -->
-            <div class="flex items-center h-[60px] px-1.5 lg:h-[120px] animate-visibleity">
-                <img class="mr-1.5 size-[50px] lg:size-[100px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo">
-                <h1 class="text-[26px] font-semibold text-white lg:text-[48px] xl:text-[64px]">تـوان‌ افـزا</h1>
+            <div class="flex items-center h-[60px] px-1.5 md:px-0 lg:h-[120px] animate-visibleity">
+                <img class="size-[50px] lg:size-[80px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo">
+                <h1 class="text-[26px] font-semibold text-white lg:text-[40px] xl:text-[50px]">تـوان‌ افـزا</h1>
             </div>
             <!-- mobile menu -->
             <div class="flex z-50 flex-row-reverse items-center justify-between relative">
                 <input type="checkbox" id="hamburger" class="peer hidden">
                 <label for="hamburger">
-                    <img class="px-6 pt-0 animate-visibleity lg:hidden" src="./assets/svg/Hamburger menu.svg"
+                    <img class="px-6 md:px-0 pt-0 animate-visibleity lg:hidden" src="./assets/svg/Hamburger menu.svg"
                         alt="Hamburger">
                 </label>
                 <div
@@ -54,11 +54,11 @@
             <!-- desktop menu -->
             <div
                 class="hidden px-[15px] lg:flex items-center justify-between gap-x-6 *:mim-w-full *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:transition-all *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 animate-visibleity">
-                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[20px] text-white lg:text-[18px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="./index.html">صفحه نخست</a>
                 <div class="group relative">
                     <div class="flex py-5">
-                        <a class="xl:text-[24px] text-white lg:text-[20px] font-medium" href="">سیستم های کنترل دستی</a>
+                        <a class="xl:text-[20px] text-white lg:text-[18px] font-medium" href="">سیستم های کنترل دستی</a>
                         <img class="mr-1 pt-1 " src="./assets/svg/arrow-down-angle-svgrepo-com.svg" alt="">
                     </div>
                     <div
@@ -71,45 +71,48 @@
                             href="">تــوان۳</a>
                     </div>
                 </div>
-                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[20px] text-white lg:text-[18px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="">درباره ما</a>
-                <a class="xl:text-[24px] text-white lg:text-[20px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
+                <a class="xl:text-[20px] text-white lg:text-[18px] font-medium hover:-translate-y-0.5 hover:scale-105 hover:bg-[#1F3A56F2] hover:text-white"
                     href="">ارتباط با ما</a>
             </div>
         </nav>
     </header>
     <main class="relative min-w-[300px] pt-[70px] lg:pt-[120px]">
         <!-- Banner background -->
-        <section class="mb-[40px]">
-            <div class="bg-gradient-to-bl from-50% from-sky-900 to-100% to-sky-600 relative h-180">
-                <h1 class="text-[38px] font-bold text-white px-4 pt-16 w-[80%] leading-9">
-                    شرکت توان افزا
-                </h1>
-                <!-- <p id="typewriter"
+        <section class="mb-[40px] md:mb-[80px]">
+            <div class="bg-gradient-to-bl from-50% from-sky-900 to-100% to-sky-600 relative pb-20 md:px-10 lg:px-20 md:pb-28 md:mt-0 md:pt-15 md:flex md:justify-between md:items-center">
+                <div>
+                    <h1 class="text-[38px] md:text-[54px] lg:text-[76px] font-bold text-white px-4 md:px-0 pt-16 w-[80%] leading-9">
+                        شرکت توان افزا
+                    </h1>
+                    <!-- <p id="typewriter"
                     class="text-[22px] text-white lg:text-[62px] sm:text-[42px] xl:text-[65px] text-center lg:mx-20 mx-6 pr-0">
                     تولید کننده دستگاه های کنترل دستی اتومبیل ویژه جانبازان و معلولین (گاز،ترمز،کلاچ)
                 </p> -->
-                <p class="text-[21px] w-[90%] px-4 text-white pt-7 font-medium">
-                    راهکاری مطمئن برای رانندگی آسان و ایمن برای جانبازان و افراد دارای معلولیت
-                </p>
-                <div class="mt-6 px-4">
-                    <button class="w-[160px] h-[50px] bg-yellow-500 rounded-[10px] font-semibold">
-                        <a class="text-[18px] transition-all" href="#goProduct">مشاهده محصولات</a>
-                    </button>
-                    <button class="w-[120px] h-[50px] mr-4 font-semibold rounded-[10px] bg-white ">
-                        <a class="text-sky-900 text-[18px]" href="">تماس با ما</a>
-                    </button>
+                    <p class="text-[21px] w-[90%] md:w-[65%] md:text-[24px] lg:text-[28px] px-4 md:px-0 text-gray-300 pt-7 font-medium">
+                        راهکاری مطمئن برای رانندگی آسان و ایمن برای جانبازان و افراد دارای معلولیت
+                    </p>
+                    <div class="mt-6 md:mt-10 px-4 md:px-0">
+                        <button class="w-[160px] h-[50px] bg-yellow-500 rounded-[10px] font-semibold">
+                            <a class="text-[18px] transition-all" href="#goProduct">مشاهده محصولات</a>
+                        </button>
+                        <button class="w-[120px] h-[50px] mr-4 font-semibold rounded-[10px] bg-white ">
+                            <a class="text-sky-900 text-[18px]" href="">تماس با ما</a>
+                        </button>
+                    </div>
                 </div>
                 <div class="">
-                    <img class="size-[320px] m-auto mt-10" src="./assets/svg/banner.svg" alt="">
+                    <img class="size-[320px] md:size-[520px] m-auto md:pt-15" src="./assets/svg/banner.svg" alt="">
                 </div>
             </div>
         </section>
         <section class="mb-12">
-            <h1 id="goProduct" class="text-sky-900 text-[32px] font-semibold text-center">سیستم های کنترل دستی</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-4">
+            <div id="goProduct"></div>
+            <h1  class="text-sky-900 text-[32px] font-semibold text-center">سیستم های کنترل دستی</h1>
+            <div class="grid grid-cols-1 min-[640px]:grid-cols-2 min-[1240px]:grid-cols-3 md:mx-0 md:px-10 lg:px-20 sm:px-10">
                 <div
-                    class="w-[90%] h-[440px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
+                    class="w-[90%] py-5 pb-8  bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
                     <div>
                         <img class="size-[70px] m-auto mt-8 p-[5px] rounded-[100%] bg-sky-50"
                             src="./assets/svg/T1-pedal 1.svg" alt="">
@@ -122,7 +125,7 @@
                         <div class="flex items-center justify-start pb-2">
                             <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
                                 alt="">
-                            <p class="text-gray-700 font-medium">مناسب افرادِ ناتوان از ناحیه پا چپ</p>
+                            <p class="text-gray-700 font-medium">مناسب افرادِ ناتوان از ناحیه پای چپ</p>
                         </div>
                         <div class="flex items-center justify-start pb-2">
                             <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
@@ -140,7 +143,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-[90%] h-[440px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
+                    class="w-[90%] py-5 pb-8  bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
                     <div>
                         <img class="size-[70px] m-auto mt-8 p-[5px] rounded-[100%] bg-sky-50"
                             src="./assets/svg/T2-pedal 1.svg" alt="">
@@ -153,7 +156,7 @@
                         <div class="flex items-center justify-start pb-2">
                             <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
                                 alt="">
-                            <p class="text-gray-700 font-medium">مناسب افرادِ ناتوان از ناحیه پا راست</p>
+                            <p class="text-gray-700 font-medium">مناسب افرادِ ناتوان از ناحیه پای راست</p>
                         </div>
                         <div class="flex items-center justify-start pb-2">
                             <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
@@ -171,7 +174,7 @@
                     </div>
                 </div>
                 <div
-                    class="w-[90%] h-[440px] bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
+                    class="w-[90%] py-5 pb-8  bg-white shadow-md/25 shadow-black rounded-2xl m-auto mt-10 border-t-[15px] border-sky-700 flex flex-col items-center">
                     <div>
                         <img class="size-[70px] m-auto mt-8 p-[5px] rounded-[100%] bg-sky-50"
                             src="./assets/svg/T3-pedal 1.svg" alt="">
@@ -202,15 +205,15 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-gray-100 mt-10 pb-20">
-                <h1 class="text-center text-sky-800 text-[32px] font-bold mx-6 pt-10">ویژگی های سیستم های کنترل دستی
+            <div class="bg-gray-100 mt-10 md:pt-20 pb-20 md:pb-36 md:px-10">
+                <h1 class="text-center text-sky-800 text-[32px] font-bold mx-6 pt-10 md:pb-10 md:text-[38px]">ویژگی های سیستم های کنترل دستی
                     توان افزا</h1>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto container">
                     <div class="bg-white shadow-md/20 shadow-black w-[90%] mx-auto rounded-lg mt-10">
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/safe-zone-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">ایمنی بالا</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">طراحی با استانداردهای بالای
                                 ایمنی و مقاوم در برابر شرایط مختلف رانندگی</p>
@@ -220,7 +223,7 @@
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/settings-5-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">نصب آسان</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">قابلیت نصب سریع و آسان بدون
                                 نیاز به تغییرات اساسی در ساختار خودرو</p>
@@ -230,7 +233,7 @@
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/like-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">راحتی استفاده</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">طراحی ارگونومیک برای استفاده
                                 راحت و بدون خستگی در مسیرهای طولانی</p>
@@ -240,7 +243,7 @@
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/people-community-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">سازگاری</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">قابلیت نصب روی انواع مختلف
                                 خودروهای داخلی و خارجی</p>
@@ -250,7 +253,7 @@
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/arrow-trend-up-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">کیفیت ساخت</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">استفاده از مواد با کیفیت و
                                 مقاوم با عمر طولانی و کارکرد بدون نقص</p>
@@ -260,7 +263,7 @@
                         <div class="bg-sky-50 rounded-full w-fit p-3 m-6">
                             <img src="./assets/svg/support-svgrepo-com.svg" alt="">
                         </div>
-                        <div class="m-6 mb-8">
+                        <div class="m-6 mb-8 h-34">
                             <h1 class="text-right text-[24px] font-semibold my-2">پشتیبانی</h1>
                             <p class=" text-right text-[17px] font-medium text-gray-600">ارائه خدمات پس از فروش و
                                 پشتیبانی دائمی برای تمامی محصولات</p>
@@ -270,12 +273,12 @@
             </div>
         </section>
         <section>
-            <div>
+            <div class="pt-11">
                 <div>
                     <h1 class="text-center text-[32px] text-sky-800 font-bold">نظرات مشتریان</h1>
                 </div>
-                <div>
-                    <div class="bg-gray-100 px-5 py-6 m-10 rounded-md shadow-md/10 shadow-black ">
+                <div class="md:px-10">
+                    <div class="bg-gray-50 px-5 py-6 m-10 md:mx-40 rounded-md shadow-md/10 shadow-black ">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="bg-sky-200 rounded-full size-10 ">
                                 <p class="text-center leading-10 font-semibold text-sky-800">م‌ط</p>
@@ -290,7 +293,7 @@
                                 به راحتی رانندگی کنم. از کارگاه توان افزا بسیار سپاسگزارم."</p>
                         </div>
                     </div>
-                    <div class="bg-gray-100 px-5 py-6 m-10 rounded-md shadow-md/10 shadow-black ">
+                    <div class="bg-gray-50 px-5 py-6 m-10 md:mx-40 rounded-md shadow-md/10 shadow-black ">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="bg-sky-200 rounded-full size-10 ">
                                 <p class="text-center leading-10 font-semibold text-sky-800">م‌ط</p>
@@ -305,7 +308,7 @@
                                 به راحتی رانندگی کنم. از کارگاه توان افزا بسیار سپاسگزارم."</p>
                         </div>
                     </div>
-                    <div class="bg-gray-100 px-5 py-6 m-10 rounded-md shadow-md/10 shadow-black ">
+                    <div class="bg-gray-50 px-5 py-6 m-10 md:mx-40 rounded-md shadow-md/10 shadow-black ">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="bg-sky-200 rounded-full size-10 ">
                                 <p class="text-center leading-10 font-semibold text-sky-800">م‌ط</p>
@@ -333,7 +336,7 @@
                 <h1 class="text-[24px] text-white font-semibold py-3 pt-8">اطلاعات تماس</h1>
                 <div>
                     <div class="flex items-center justify-start mb-8">
-                        <img class="size-5 mb-12 ml-2" src="./assets/svg/location-983.svg" alt="">
+                        <img class="size-5 relative top-0  ml-2" src="./assets/svg/location-983.svg" alt="">
                         <div>
                             <h3 class="text-white text-[18px] font-semibold">آدرس:</h3>
                             <p class="text-white text-[16px] font-medium">سمنان٬سمنان٬شهرک غرب٬خیابان خودروی
@@ -341,7 +344,7 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-start mb-8">
-                        <img class="size-5 mb-14 ml-2" src="./assets/svg/phone-3114.svg" alt="">
+                        <img class="size-5 relative top-0 ml-2" src="./assets/svg/phone-3114.svg" alt="">
                         <div>
                             <h3 class="text-white text-[18px] font-semibold">تلفن:</h3>
                             <div class="flex flex-col">
@@ -351,14 +354,14 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-start mb-8">
-                        <img class="size-5 mb-7 ml-2" src="./assets/svg/mail-5888.svg" alt="">
+                        <img class="size-5 relative top-0 ml-2" src="./assets/svg/mail-5888.svg" alt="">
                         <div>
                             <h3 class="text-white text-[18px] font-semibold">ایمیل:</h3>
                             <p class="text-white text-[18px] font-medium">tavanafzasemnan64@gmail.com</p>
                         </div>
                     </div>
                     <div class="flex items-center justify-start">
-                        <img class="size-5 mb-7 ml-2" src="./assets/svg/time-2626.svg" alt="">
+                        <img class="size-5 relative top-0 ml-2" src="./assets/svg/time-2626.svg" alt="">
                         <div>
                             <h3 class="text-white text-[18px] font-semibold">ساعات کاری:</h3>
                             <p class="text-white text-[16px] font-medium">شنبه تا پنجشنبه: ۹صبح تا ۱ظهر</p>
@@ -373,7 +376,8 @@
                 <h1 class="text-white text-[20px] font-bold">کـارگـاه تـوان افـزا</h1>
             </div>
             <div>
-                <p class="text-gray-400 text-[17px] font-medium py-2">ارائه دهنده سیستم‌های کنترل دستی خودرو برای جانبازان و معلولین</p>
+                <p class="text-gray-400 text-[17px] font-medium py-2">ارائه دهنده سیستم‌های کنترل دستی خودرو برای
+                    جانبازان و معلولین</p>
             </div>
             <div class="flex flex-col items-center justify-center mt-2">
                 <p class="text-white">© ۱۴۰۲ تمامی حقوق محفوظ است.</p>
