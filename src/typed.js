@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     var typed = new Typed('#typewriter', {
       strings: [
-        "تولید کننده دستگاه های کنترل دستی اتومبیل ویژه جانبازان و معلولین (گاز،ترمز،کلاچ)"
+        "راهکاری مطمئن برای رانندگی آسان و ایمن برای جانبازان و افراد دارای معلولیت"
       ],
-      typeSpeed: 80,
-      backSpeed: 30,
+      typeSpeed: 120,
+      backSpeed: 40,
       loop: true,
-      backDelay: 7000,
+      backDelay: 1000,
       showCursor: false
     });
-  }, 3000);
+  }, 1000);
 });
