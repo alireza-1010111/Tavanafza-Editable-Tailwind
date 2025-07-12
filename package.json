@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.7"
+    "@tailwindcss/cli": "^4.1.7",
+    "motion": "^12.23.3"
   },
   "name": "tavanafza",
   "version": "1.0.0",
