@@ -1,5 +1,4 @@
 @import "tailwindcss";
-import { FlipText } from "@/components/magicui/flip-text";
 
 @theme {
   --font-sans: "Yekan", sans-serif;
