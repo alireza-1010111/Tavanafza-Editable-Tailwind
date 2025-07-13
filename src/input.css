@@ -11,16 +11,18 @@
 @theme {
   --font-Tanha: "Tanha", sans-serif;
 }
+
 @theme {
   --font-BMitra: "BMitra", sans-serif;
 }
+
 @theme {
   --font-BYagut: "BYagut", sans-serif;
 }
+
 @theme {
   --font-BTraffic: "BTraffic", sans-serif;
 }
-
 
 /* @theme {
   --animate-slideDown: slideDown 3s ease forwards;
