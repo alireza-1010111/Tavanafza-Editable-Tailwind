@@ -1,72 +1,35 @@
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Hairline.woff2");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Thin.woff2");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Light.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Thin-FD.woff2");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Regular.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Light-FD.woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Medium.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Regular-FD.woff2");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Bold.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Medium-FD.woff2");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Heavy.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Bold-FD.woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Yekan";
-  src: url("./assets/fonts/YekanBakh-Fat.woff2");
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Black-FD.woff2");
   font-weight: 800;
-}
-@font-face {
-  font-family: "Sahel";
-  src: url("./assets/fonts/Sahel-Black.woff2");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "Tanha";
-  src: url("./assets/fonts/Tanha.woff2");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "BMitra";
-  src: url("./assets/fonts/BMitra.woff");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "BYagut";
-  src: url("./assets/fonts/BYagut.woff");
-  font-weight: 100;
-}
-@font-face {
-  font-family: "BTraffic";
-  src: url("./assets/fonts/BTraffic.woff");
-  font-weight: 100;
 }

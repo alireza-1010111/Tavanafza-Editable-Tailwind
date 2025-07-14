@@ -13,9 +13,9 @@
 <body class="min-w-[300px] scroll-smooth">
     <header>
         <nav
-            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-1.5 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] md:px-10 lg:h-[90px] lg:px-20 xl:px-40">
+            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-1.5 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] min-[400px]:px-8 md:px-10 lg:h-[90px] lg:px-20 xl:px-40">
             <!-- Navbar Logo -->
-            <div class="flex h-[60px] items-center px-6 md:px-0 lg:h-[120px] xl:mx-4">
+            <div class="flex h-[60px] items-center px-6 md:px-0 lg:h-[120px] xl:mx-4 animate-slideleft">
                 <img class="size-[50px] lg:size-[60px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo" />
                 <h1
                     class="text-[26px] font-semibold text-white md:font-bold md:text-shadow-lg md:text-shadow-sky-700 lg:text-[40px] xl:text-[50px]">
@@ -55,14 +55,15 @@
             </div>
             <!-- desktop menu -->
             <div
-                class="*:mim-w-full animate-visibleity hidden items-center justify-between gap-x-8 px-[15px] *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 *:focus:transition-all lg:flex">
+                class="*:mim-w-full animate-slideright hidden items-center justify-between gap-x-8 px-[15px] *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 *:focus:transition-all lg:flex">
                 <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
                     href="./index.html">صفحه نخست</a>
                 <div class="group relative">
                     <div class="flex py-5">
                         <a class="font-medium text-white lg:text-[16px] xl:text-[18px]" href="#goProduct">سیستم های
                             کنترل دستی</a>
-                        <img class="mt-2 mr-1 size-3.5" src="./assets/svg/arrow-down-angle-svgrepo-com.svg" alt="" />
+                        <img class="mt-2 mr-1 size-3.5" src="./assets/svg/arrow-down-angle-svgrepo-com.svg"
+                            alt="arrow down" />
                     </div>
                     <div
                         class="divide absolute top-20 flex w-full translate-y-[-700px] flex-col divide-y-[1px] divide-black/20 rounded-[10px] border-t-4 border-yellow-300 bg-sky-700/30 opacity-0 backdrop-blur-[40px] transition-all delay-75 duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100">
@@ -86,9 +87,9 @@
         <section class="mb-[40px] md:mb-[100px]">
             <div
                 class="relative bg-gradient-to-bl from-sky-950 from-55% to-sky-600 to-100% px-6 pb-20 max-[540px]:flex max-[540px]:flex-col max-[540px]:items-center min-[470px]:flex min-[470px]:items-center min-[470px]:justify-between md:mt-0 md:px-10 md:pt-15 md:pb-36 lg:px-20 xl:px-44 xl:pt-48 xl:pb-72">
-                <div class="">
+                <div>
                     <h1
-                        class="w-full px-0 pt-16 text-[46px] font-bold text-white md:w-full md:text-[54px] md:leading-9 lg:text-[76px]">
+                        class="w-full animate-visibleity2 px-0 pt-16 text-[46px] font-semibold text-white md:w-full md:text-[54px] md:leading-9 lg:text-[76px]">
                         شرکت تـوان‌افـزا
                     </h1>
                     <!-- <p id="typewriter"
@@ -113,31 +114,32 @@
                 </div>
                 <div class="px-6">
                     <img class="relative mr-auto size-[280px] pt-15 min-[540px]:mr-6 md:size-[360px] md:pt-15"
-                        src="./assets/svg/undraw_car-repair_wski.svg" alt="" />
+                        src="./assets/svg/undraw_car-repair_wski.svg" alt="Banner logo" />
                 </div>
             </div>
         </section>
         <!-- Manual control systems -->
         <section class="mb-12">
-            <div id="goProduct" class="pt-20 shadow-sm/40 shadow-white">
+            <div id="goProduct" class="pt-20 shadow-sm/40 shadow-white min-[400px]:px-8">
                 <div class="-mb-11 flex flex-col items-center justify-center">
                     <h1
                         class="px-6 text-center text-[32px] font-semibold text-sky-900 md:text-[42px] md:font-bold lg:text-[48px] xl:text-[54px] xl:font-black">
                         سیستم های کنترل‌دستی
                     </h1>
-                    <img src="./assets/svg/arrow down.svg" alt="" />
+                    <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
                 <div
-                    class="grid grid-cols-1 px-2 pb-14 min-[640px]:grid-cols-2 min-[1240px]:grid-cols-3 sm:px-10 md:mx-0 md:px-10 lg:px-20 xl:mx-20">
+                    class="grid grid-cols-1 px-2 pb-14 min-[640px]:grid-cols-2 min-[1240px]:grid-cols-3 sm:px-4 md:mx-0 md:px-0 lg:px-20 xl:mx-20">
+                    <!-- Tavan1 -->
                     <div
                         class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-lg/20 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
                         <div class="">
                             <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
-                                src="./assets/svg/T1-pedal 1.svg" alt="" />
+                                src="./assets/svg/T1-pedal 1.svg" alt="Tavan1" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
                             <h1 class="text-[28px] font-bold">توان ۱</h1>
-                            <p class="text-[18px] font-medium text-gray-500">
+                            <p class="px-6 text-center text-[18px] font-medium text-gray-500">
                                 سیستم کنترل دستی کلاچ
                             </p>
                         </div>
@@ -145,19 +147,19 @@
                             class="mx-5 my-5 w-[85%] rounded-2xl bg-gray-100 p-4 shadow-lg/20 inset-shadow-sm/50 shadow-white inset-shadow-black xl:py-2">
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     مناسب افرادِ ناتوان از ناحیه پای چپ
                                 </p>
                             </div>
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">نصب آسان و سریع</p>
                             </div>
                             <div class="flex items-center justify-start">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     کنترل دقیق کلاچ با دست
                                 </p>
@@ -168,15 +170,16 @@
                             <a class="text-white" href="">اطلاعات بیشتر</a>
                         </div>
                     </div>
+                    <!-- Tavan2 -->
                     <div
                         class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-md/25 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
                         <div>
                             <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
-                                src="./assets/svg/T2-pedal 1.svg" alt="" />
+                                src="./assets/svg/T2-pedal 1.svg" alt="Tavan2" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
                             <h1 class="text-[28px] font-bold">توان ۲</h1>
-                            <p class="text-[18px] font-medium text-gray-500">
+                            <p class="px-6 text-center text-[18px] font-medium text-gray-500">
                                 سیستم کنترل دستی گاز و ترمز
                             </p>
                         </div>
@@ -184,21 +187,21 @@
                             class="mx-5 my-5 w-[85%] rounded-2xl bg-gray-100 p-4 shadow-lg/20 inset-shadow-sm/50 shadow-white inset-shadow-black xl:py-2">
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     مناسب افرادِ ناتوان از ناحیه پای راست
                                 </p>
                             </div>
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     کنترل همزمان گاز و ترمز
                                 </p>
                             </div>
                             <div class="flex items-center justify-start">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     طراحی ارگونومیک و راحت
                                 </p>
@@ -209,15 +212,16 @@
                             <a class="text-white" href="">اطلاعات بیشتر</a>
                         </div>
                     </div>
+                    <!-- Tavan3 -->
                     <div
                         class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-md/25 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
                         <div>
                             <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
-                                src="./assets/svg/T3-pedal 1.svg" alt="" />
+                                src="./assets/svg/T3-pedal 1.svg" alt="Tavan3" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
                             <h1 class="text-[28px] font-bold">توان ۳</h1>
-                            <p class="text-[18px] font-medium text-gray-500">
+                            <p class="px-6 text-center text-[18px] font-medium text-gray-500">
                                 سیستم کنترل دستی گاز٬ترمز و کلاچ
                             </p>
                         </div>
@@ -225,21 +229,21 @@
                             class="mx-5 my-5 w-[85%] rounded-2xl bg-gray-100 p-4 shadow-lg/20 inset-shadow-sm/50 shadow-white inset-shadow-black xl:py-2">
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     مناسب افرادِ ناتوان از ناحیه دو پا
                                 </p>
                             </div>
                             <div class="flex items-center justify-start pb-2">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     سیستم کامل کنترل خودرو با دست
                                 </p>
                             </div>
                             <div class="flex items-center justify-start">
                                 <img class="size-5" src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg"
-                                    alt="" />
+                                    alt="check" />
                                 <p class="font-medium text-gray-700">
                                     قابلیت نصب روی اکثر خودرو ها
                                 </p>
@@ -254,19 +258,19 @@
             </div>
             <!-- Characteristics of manual control systems -->
             <div
-                class="mt-10 bg-gray-100 px-6 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-white inset-shadow-gray-700 md:px-10 md:pt-20 md:pb-36">
+                class="mt-10 bg-gray-100 px-6 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-white inset-shadow-gray-700 min-[400px]:px-8 md:px-10 md:pt-20 md:pb-36 lg:px-20">
                 <div class="mx-6 flex flex-col items-center justify-center pt-10 md:pt-14 md:pb-5">
                     <h1
                         class="text-center text-[30px] font-bold text-sky-800 md:text-[38px] md:font-black xl:text-[54px]">
                         ویژگی‌های سیستم‌های کنترل‌دستی توان‌افزا
                     </h1>
-                    <img src="./assets/svg/arrow down.svg" alt="" />
+                    <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
                 <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:mx-[116px]">
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/safe-zone-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/safe-zone-svgrepo-com.svg" alt="safe" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -281,7 +285,7 @@
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/settings-5-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/settings-5-svgrepo-com.svg" alt="settings" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -296,7 +300,7 @@
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/like-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/like-svgrepo-com.svg" alt="like" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -311,7 +315,7 @@
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/people-community-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/people-community-svgrepo-com.svg" alt="people" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -325,7 +329,7 @@
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/arrow-trend-up-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/arrow-trend-up-svgrepo-com.svg" alt="arrow-trend-up" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -340,7 +344,7 @@
                     <div
                         class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
-                            <img src="./assets/svg/support-svgrepo-com.svg" alt="" />
+                            <img src="./assets/svg/support-svgrepo-com.svg" alt="support" />
                         </div>
                         <div class="m-6 mb-8 h-34">
                             <h1 class="my-2 text-right text-[24px] font-semibold">
@@ -356,12 +360,12 @@
         </section>
         <section>
             <!-- Comments -->
-            <div>
+            <div class="min-[400px]:px-8 lg:px-10">
                 <div class="flex flex-col items-center justify-center">
                     <h1 class="text-center text-[32px] font-bold text-sky-800 lg:font-bold xl:text-[54px]">
                         نظرات مشتریان
                     </h1>
-                    <img src="./assets/svg/arrow down.svg" alt="" />
+                    <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 md:px-10 lg:grid-cols-3 xl:mx-32">
                     <div
@@ -431,7 +435,7 @@
     <!-- contact us -->
     <footer>
         <div
-            class="mt-20 bg-gradient-to-bl from-sky-900 from-50% to-sky-700 to-100% p-5 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 md:flex md:items-center md:justify-between md:gap-3.5 md:px-10 lg:px-20">
+            class="mt-20 bg-gradient-to-bl from-sky-900 from-50% to-sky-700 to-100% p-5 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 min-[400px]:px-14 md:flex md:items-center md:justify-between md:gap-3.5 md:px-10 lg:px-20">
             <div class="xl:mx-25">
                 <div class="mt-10">
                     <h1 class="text-center text-[32px] font-bold text-white">
@@ -444,7 +448,8 @@
                     </h1>
                     <div>
                         <div class="mb-8 flex items-center justify-start">
-                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/location-983.svg" alt="" />
+                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/location-983.svg"
+                                alt="location" />
                             <div>
                                 <div>
                                     <h3 class="text-[18px] font-semibold text-white">آدرس:</h3>
@@ -458,15 +463,17 @@
                                         مشاهده در مسیریاب تلفن همراه
                                     </p>
                                     <div class="flex items-center justify-between">
-                                        <img class="size-11" src="./assets/img/Balad-Logo-1030x1030.png" alt="" />
-                                        <img class="ml-2 size-7" src="./assets/img/Neshan-Logo-1030x1030.png" alt="" />
-                                        <img class="size-6" src="./assets/svg/google-maps-svgrepo-com.svg" alt="" />
+                                        <img class="size-11" src="./assets/img/Balad-Logo-1030x1030.png" alt="Balad" />
+                                        <img class="ml-2 size-7" src="./assets/img/Neshan-Logo-1030x1030.png"
+                                            alt="Neshan" />
+                                        <img class="size-6" src="./assets/svg/google-maps-svgrepo-com.svg"
+                                            alt="google maps" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="mb-8 flex items-center justify-start">
-                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/phone-3114.svg" alt="" />
+                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/phone-3114.svg" alt="phone" />
                             <div>
                                 <h3 class="text-[18px] font-semibold text-white">تلفن:</h3>
                                 <div class="flex flex-col">
@@ -476,14 +483,15 @@
                                         <a href="tel:09121317876"
                                             class="text-[18px] font-medium text-white">۰۹۱۲۱۳۱۷۸۷۶</a>
                                         <div class="mr-2 flex items-center justify-between gap-x-2.5">
-                                            <img src="./assets/svg/arrow left.svg" alt="" />
+                                            <img src="./assets/svg/arrow left.svg" alt="arrow left" />
                                             <a href="https://wa.me/989121317876" target="_blank">
                                                 <img class="size-6"
-                                                    src="./assets/svg/whatsapp-social-media-svgrepo-com.svg" alt="" />
+                                                    src="./assets/svg/whatsapp-social-media-svgrepo-com.svg"
+                                                    alt="whatsapp" />
                                             </a>
                                             <a href="https://te.me/989121317876" target="_blank">
                                                 <img class="size-6" src="./assets/svg/telegram-svgrepo-com.svg"
-                                                    alt="" />
+                                                    alt="telegram" />
                                             </a>
                                         </div>
                                     </div>
@@ -491,7 +499,7 @@
                             </div>
                         </div>
                         <div class="mb-8 flex items-center justify-start">
-                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/mail-5888.svg" alt="" />
+                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/mail-5888.svg" alt="email" />
                             <div>
                                 <h3 class="text-[18px] font-semibold text-white">ایمیل:</h3>
                                 <p class="text-[18px] font-medium text-white">
@@ -500,7 +508,7 @@
                             </div>
                         </div>
                         <div class="flex items-center justify-start">
-                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/time-2626.svg" alt="" />
+                            <img class="relative top-0 ml-2 size-5" src="./assets/svg/time-2626.svg" alt="clock" />
                             <div>
                                 <h3 class="text-[18px] font-semibold text-white">
                                     ساعات کاری:
@@ -514,15 +522,15 @@
                 </div>
             </div>
             <iframe
-                class="my-10 rounded-xl shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 lg:mx-6 xl:mx-25"
+                class="my-10 rounded-xl shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 max-[360px]:h-[390px] max-[360px]:w-[280px] lg:mx-6 xl:mx-25"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.86085806564392!2d53.351082664471214!3d35.55929004094577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f9a4cf4cacbf187%3A0x89811523e9740cd0!2z2KrZiNin2YYg2KfZgdiy2Kc!5e0!3m2!1sen!2s!4v1751878157255!5m2!1sen!2s"
                 width="320" height="520" style="border: 0" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="bg-[#001d31] p-5 md:flex md:items-center md:justify-between md:px-10">
-            <div class="xl:mx-34">
+        <div class="bg-[#001d31] p-5 min-[400px]:px-14 md:flex md:items-center md:justify-between md:px-10 lg:px-20">
+            <div class="min-[400px]:pb-6 xl:mx-34">
                 <div class="flex items-center justify-start gap-1.5">
-                    <img class="size-10" src="./assets/svg/TAS 1.svg" alt="" />
+                    <img class="size-10" src="./assets/svg/TAS 1.svg" alt="Tavanafza logo" />
                     <h1 class="text-[20px] font-bold text-white">
                         کـارگـاه تـوان افـزا
                     </h1>

@@ -1,34 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Yekan", sans-serif;
-}
-
-@theme {
-  --font-Sahel: "Sahel", sans-serif;
-}
-
-@theme {
-  --font-Tanha: "Tanha", sans-serif;
-}
-
-@theme {
-  --font-BMitra: "BMitra", sans-serif;
-}
-
-@theme {
-  --font-BYagut: "BYagut", sans-serif;
-}
-
-@theme {
-  --font-BTraffic: "BTraffic", sans-serif;
+  --font-sans: "Vazir", sans-serif;
 }
 
 /* @theme {
   --animate-slideDown: slideDown 3s ease forwards;
   @keyframes slideDown {
     0% {
-      transform: translateY(-150%);
+      transform: translateY(-500%);
       opacity: 0;
     }
     100% {
@@ -65,13 +45,10 @@
 }
 
 @theme {
-  --animate-visibleity2: visibleity2 5s ease forwards;
+  --animate-visibleity2: visibleity2 4s 10s ease forwards;
   @keyframes visibleity2 {
     0% {
       opacity: 0;
-    }
-    50% {
-      opacity: 0.6;
     }
     100% {
       opacity: 1;
@@ -109,10 +86,10 @@
 }
 
 @theme {
-  --animate-slideleft: slideleft 1s ease-in-out forwards;
+  --animate-slideleft: slideleft 1.5s ease-in-out forwards;
   @keyframes slideleft {
     0% {
-      transform: translateX(100%);
+      transform: translateX(500%);
       opacity: 0;
     }
     100% {
@@ -121,8 +98,9 @@
     }
   }
 }
+
 @theme {
-  --animate-slideright: slideright 1s ease-in-out forwards;
+  --animate-slideright: slideright 1.5s ease-in-out forwards;
   @keyframes slideright {
     0% {
       transform: translateX(-500%);

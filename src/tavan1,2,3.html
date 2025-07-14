@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/svg/TAS2.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <title>سیستم های کنترل دستی</title>
+</head>
+
+<body class="min-w-[300px] scroll-smooth">
+    <header>
+        <nav
+            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-1.5 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] min-[400px]:px-8 md:px-10 lg:h-[90px] lg:px-20 xl:px-40">
+            <!-- Navbar Logo -->
+            <div class="flex h-[60px] items-center px-6 md:px-0 lg:h-[120px] xl:mx-4 animate-slideleft">
+                <img class="size-[50px] lg:size-[60px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo" />
+                <h1
+                    class="text-[26px] font-semibold text-white md:font-bold md:text-shadow-lg md:text-shadow-sky-700 lg:text-[40px] xl:text-[50px]">
+                    تـوان‌ افـزا
+                </h1>
+            </div>
+            <!-- mobile menu -->
+            <div class="relative z-50 flex flex-row-reverse items-center justify-between">
+                <input type="checkbox" id="hamburger" class="peer hidden" />
+                <label for="hamburger">
+                    <img class="px-6 pt-0 md:px-0 lg:hidden" src="./assets/svg/Hamburger menu.svg" alt="Hamburger" />
+                </label>
+                <div
+                    class="fixed top-0 right-0 z-50 flex h-[1440px] translate-x-[300%] flex-col bg-gradient-to-bl from-sky-900 from-40% to-sky-700 to-80% shadow-2xl shadow-sky-200 backdrop-blur-lg transition-transform delay-75 duration-700 ease-in-out *:px-3.5 *:py-4 *:pl-10 *:font-semibold *:text-white peer-checked:translate-x-0 md:w-2/5 *:md:text-[20px] *:xl:text-[24px]">
+                    <div class="relative mb-7">
+                        <label for="hamburger">
+                            <img class="absolute top-4 left-2.5 md:size-7" src="./assets/svg/cross-svgrepo-com.svg"
+                                alt="cross" />
+                        </label>
+                    </div>
+                    <a href="./index.html">صـفـحـه نـخـسـت</a>
+                    <div>
+                        <input type="checkbox" id="showItems" class="peer hidden" />
+                        <label for="showItems" class="flex gap-x-2">سـیـسـتم هـای کـنـترل دســتی</label>
+                        <img src="./assets/svg/arrow-down-angle-svgrepo-com copy.svg" alt="arrow down"
+                            class="relative -top-4.5 mr-auto -ml-4 size-3 transition-all peer-checked:rotate-180 md:-top-5 md:size-4" />
+                        <div
+                            class="animate-slideDown2 my-2 hidden flex-col divide-y-[1px] divide-white/30 rounded-[10px] border-t-4 border-yellow-300 bg-[#1F3A56] shadow-2xl shadow-black backdrop-blur-[20px] transition-all *:text-white peer-checked:flex">
+                            <a class="py-2 text-center" href="">تــوان‌ ۱</a>
+                            <a class="py-2 text-center" href="">تــوان‌ ۲</a>
+                            <a class="py-2 text-center" href="">تــوان‌۳</a>
+                        </div>
+                    </div>
+                    <a href="">دربــاره مــا</a>
+                    <a href="">ارتـبـاط بـا مــا</a>
+                </div>
+            </div>
+            <!-- desktop menu -->
+            <div
+                class="*:mim-w-full animate-slideright hidden items-center justify-between gap-x-8 px-[15px] *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 *:focus:transition-all lg:flex">
+                <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
+                    href="./index.html">صفحه نخست</a>
+                <div class="group relative">
+                    <div class="flex py-5">
+                        <a class="font-medium text-white lg:text-[16px] xl:text-[18px]" href="#goProduct">سیستم های
+                            کنترل دستی</a>
+                        <img class="mt-2 mr-1 size-3.5" src="./assets/svg/arrow-down-angle-svgrepo-com.svg"
+                            alt="arrow down" />
+                    </div>
+                    <div
+                        class="divide absolute top-20 flex w-full translate-y-[-700px] flex-col divide-y-[1px] divide-black/20 rounded-[10px] border-t-4 border-yellow-300 bg-sky-700/30 opacity-0 backdrop-blur-[40px] transition-all delay-75 duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100">
+                        <a class="rounded-[10px] py-2 text-center text-[20px] font-semibold text-sky-100 transition-all delay-75 duration-700 hover:bg-sky-900 hover:text-white"
+                            href="">تــوان ۱</a>
+                        <a class="rounded-[10px] py-2 text-center text-[20px] font-semibold text-sky-100 transition-all delay-75 duration-700 hover:bg-sky-900 hover:text-white"
+                            href="">تــوان ۲</a>
+                        <a class="rounded-[10px] py-2 text-center text-[20px] font-semibold text-sky-100 transition-all delay-75 duration-700 hover:bg-sky-900 hover:text-white"
+                            href="">تــوان۳</a>
+                    </div>
+                </div>
+                <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
+                    href="">درباره ما</a>
+                <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
+                    href="">ارتباط با ما</a>
+            </div>
+        </nav>
+    </header>
+    <main class="relative min-w-[300px] pt-[70px] lg:pt-[90px]">
+        <section class="mb-[40px] md:mb-[100px]">
+            <div class="relative bg-gradient-to-bl from-sky-950 from-55% to-sky-600 to-100% px-8 py-24">
+                <div>
+                    <h1
+                        class="w-full animate-visibleity2 text-center text-[28px] font-black text-white md:w-full md:text-[32px] md:leading-9 lg:text-[36px]">
+                        اطلاعات کامل سیستم های کنترل دستی
+                    </h1>
+                    <p id="typewriter"
+                        class="w-full pt-7 md:pt-4 lg:pt-2 text-center text-[18px] font-medium text-gray-300  md:text-[20px] lg:text-[22px]">
+                        راهنمای جامع سیستم‌های کنترل دستی خودرو
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center justify-center flex-col mx-8">
+                <div
+                    class="group w-full">
+                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="1">
+                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۱ - کنترل کلاچ</a>
+                    </div>
+                </div>
+                <div
+                    class="group w-full">
+                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="2">
+                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۲ - کنترل گاز و ترمز</a>
+                    </div>
+                </div>
+                <div
+                    class="group w-full">
+                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="3">
+                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۳ - کنترل گاز٬ترمز و کلاچ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="product-1" class="product hidden rounded bg-white p-6 shadow">
+    <h2 class="mb-4 text-xl font-bold">محصول توان 1</h2>
+
+  </div>
+
+  <div id="product-2" class="product hidden rounded bg-white p-6 shadow">
+    <h2 class="mb-4 text-xl font-bold">محصول توان 2</h2>
+
+  </div>
+
+  <div id="product-3" class="product hidden rounded bg-white p-6 shadow">
+    <h2 class="mb-4 text-xl font-bold">محصول توان 3</h2>
+
+  </div>
+        </section>
+    </main>
+      <script src="./tavan1,2,3.js"></script>
+</body>
+
+</html>
