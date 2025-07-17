@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/svg/TAS2.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../dist/output.css" />
     <link rel="stylesheet" href="./font.css" />
@@ -13,9 +13,9 @@
 <body class="min-w-[300px] scroll-smooth">
     <header>
         <nav
-            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-1.5 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] min-[400px]:px-8 md:px-10 lg:h-[90px] lg:px-20 xl:px-40">
+            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-4 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] min-[400px]:px-8 md:px-10 lg:h-[90px]">
             <!-- Navbar Logo -->
-            <div class="flex h-[60px] items-center px-6 md:px-0 lg:h-[120px] xl:mx-4 animate-slideleft">
+            <div class="animate-slideleft flex h-[60px] items-center lg:h-[120px]">
                 <img class="size-[50px] lg:size-[60px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo" />
                 <h1
                     class="text-[26px] font-semibold text-white md:font-bold md:text-shadow-lg md:text-shadow-sky-700 lg:text-[40px] xl:text-[50px]">
@@ -26,7 +26,7 @@
             <div class="relative z-50 flex flex-row-reverse items-center justify-between">
                 <input type="checkbox" id="hamburger" class="peer hidden" />
                 <label for="hamburger">
-                    <img class="px-6 pt-0 md:px-0 lg:hidden" src="./assets/svg/Hamburger menu.svg" alt="Hamburger" />
+                    <img class="px-2 pt-0 lg:hidden" src="./assets/svg/Hamburger menu.svg" alt="Hamburger" />
                 </label>
                 <div
                     class="fixed top-0 right-0 z-50 flex h-[1440px] translate-x-[300%] flex-col bg-gradient-to-bl from-sky-900 from-40% to-sky-700 to-80% shadow-2xl shadow-sky-200 backdrop-blur-lg transition-transform delay-75 duration-700 ease-in-out *:px-3.5 *:py-4 *:pl-10 *:font-semibold *:text-white peer-checked:translate-x-0 md:w-2/5 *:md:text-[20px] *:xl:text-[24px]">
@@ -83,60 +83,883 @@
         </nav>
     </header>
     <main class="relative min-w-[300px] pt-[70px] lg:pt-[90px]">
-        <section class="mb-[40px] md:mb-[100px]">
+        <section>
             <div class="relative bg-gradient-to-bl from-sky-950 from-55% to-sky-600 to-100% px-8 py-24">
                 <div>
                     <h1
-                        class="w-full animate-visibleity2 text-center text-[28px] font-black text-white md:w-full md:text-[32px] md:leading-9 lg:text-[36px]">
+                        class="animate-visibleity2 w-full text-center text-[28px] font-black text-white md:w-full md:text-[32px] md:leading-9 lg:text-[36px]">
                         اطلاعات کامل سیستم های کنترل دستی
                     </h1>
                     <p id="typewriter"
-                        class="w-full pt-7 md:pt-4 lg:pt-2 text-center text-[18px] font-medium text-gray-300  md:text-[20px] lg:text-[22px]">
+                        class="w-full pt-7 text-center text-[18px] font-medium text-gray-300 md:pt-4 md:text-[20px] lg:pt-2 lg:text-[22px]">
                         راهنمای جامع سیستم‌های کنترل دستی خودرو
                     </p>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="flex items-center justify-center flex-col mx-8">
-                <div
-                    class="group w-full">
-                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="1">
-                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۱ - کنترل کلاچ</a>
+        <section class="py-10 shadow-md/45 shadow-gray-600 px-4">
+            <div class="mx-8 flex flex-col items-center justify-center">
+                <div class="group w-full">
+                    <div class="product-btn my-2 rounded-[8px] bg-gray-200 p-4 text-center transition-all duration-700 group-hover:bg-sky-600 hover:cursor-pointer"
+                        data-product="1">
+                        <a class="sm:text-[18px] font-semibold transition-all duration-700 group-hover:text-white"
+                            href="#tavan1">توان۱ - کنترل کلاچ</a>
                     </div>
                 </div>
-                <div
-                    class="group w-full">
-                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="2">
-                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۲ - کنترل گاز و ترمز</a>
+                <div class="group w-full">
+                    <div class="product-btn my-2 rounded-[8px] bg-gray-200 p-4 text-center transition-all duration-700 group-hover:bg-sky-600 hover:cursor-pointer"
+                        data-product="2">
+                        <a class="sm:text-[18px] font-semibold transition-all duration-700 group-hover:text-white"
+                            href="#tavan2">توان۲ - کنترل گاز و ترمز</a>
                     </div>
                 </div>
-                <div
-                    class="group w-full">
-                    <div class="product-btn rounded-[8px] p-4 my-2 text-center bg-gray-200 group-hover:bg-sky-600" data-product="3">
-                        <a class="group-hover:text-white  font-semibold text-[18px]" href="">توان۳ - کنترل گاز٬ترمز و کلاچ</a>
+                <div class="group w-full">
+                    <div class="product-btn my-2 rounded-[8px] bg-gray-200 p-4 text-center transition-all duration-700 group-hover:bg-sky-600 hover:cursor-pointer"
+                        data-product="3">
+                        <a class="sm:text-[18px] font-semibold transition-all duration-700 group-hover:text-white"
+                            href="#tavan3">توان۳ - کنترل گاز٬ترمز و کلاچ</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div id="product-1" class="product hidden rounded bg-white p-6 shadow">
-    <h2 class="mb-4 text-xl font-bold">محصول توان 1</h2>
 
-  </div>
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <div class="flex items-center justify-start gap-4">
+                        <div
+                            class="size-2 px-1 py-1 md:size-3 md:px-1.5 md:py-1.5 rounded-full bg-red-600 animate-ping duration-1000 transition-all shadow-2xl shadow-red-800 inset-shadow-sm inset-shadow-red-400">
+                        </div>
+                        <h1 class="sm:text-[18px] lg:text-[20px] font-semibold text-justify">نصب سیستم های کنترل دستی
+                            بدون هیچ گونه تغییرات و آسیبی بر روی خوردوی شما انجام می شود</h1>
+                    </div>
 
-  <div id="product-2" class="product hidden rounded bg-white p-6 shadow">
-    <h2 class="mb-4 text-xl font-bold">محصول توان 2</h2>
-
-  </div>
-
-  <div id="product-3" class="product hidden rounded bg-white p-6 shadow">
-    <h2 class="mb-4 text-xl font-bold">محصول توان 3</h2>
-
-  </div>
+                </div>
+            </div>
         </section>
+
+        <section id="product-1" class="product active py-16">
+            <div class="container mx-auto px-4">
+                <!-- Product Overview -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+                        <div>
+                            <div class="mb-4 flex items-center">
+                                <img class="ml-2 size-[70px] rounded-[100%] bg-sky-50 p-2"
+                                    src="./assets/svg/T1-pedal 1.svg" alt="Tavan1" />
+                                <div>
+                                    <h3 class="text-3xl font-bold text-sky-800">توان ۱</h3>
+                                    <p class="text-lg text-gray-600">سیستم کنترل دستی کلاچ</p>
+                                </div>
+                            </div>
+                            <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                                سیستم توان ۱ برای افرادی طراحی شده که دارای معلولیت در پای چپ
+                                هستند و نمی‌توانند از پدال کلاچ استفاده کنند. این سیستم امکان
+                                کنترل کامل کلاچ را با استفاده از دست فراهم می‌کند.
+                            </p>
+                            <div class="rounded-lg bg-sky-50 p-4">
+                                <h4 class="mb-2 font-bold text-sky-800">مناسب برای:</h4>
+                                <ul class="space-y-1 text-gray-700">
+                                    <li>• جانبازان با آسیب پای چپ</li>
+                                    <li>• افراد با معلولیت موقت پای چپ</li>
+                                    <li>• کسانی که نمی‌توانند از پدال کلاچ استفاده کنند</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rounded-lg bg-gray-100 p-6">
+                            <img src="./assets/img/T1/1742893509214.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Specifications -->
+                <div class="mb-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">مشخصات فنی</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">جنس بدنه:</span>
+                                <span>آهن مقاوم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">وزن:</span>
+                                <span>۴ کیلوگرم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">ابعاد:</span>
+                                <span>۱۵ × ۵ × ۳۰ سانتی‌متر</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">پشتیبانی:</span>
+                                <span>دائمی</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-semibold">سازگاری:</span>
+                                <span>تمام خودروهای دنده‌ای</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">مزایای کلیدی</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">کنترل دقیق</h5>
+                                    <p class="text-gray-600">امکان کنترل دقیق و تدریجی کلاچ</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">نصب آسان</h5>
+                                    <p class="text-gray-600">نصب در کمتر از ۳ ساعت</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">ایمنی بالا</h5>
+                                    <p class="text-gray-600">سیستم ایمنی چندگانه</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">طراحی ارگونومیک</h5>
+                                    <p class="text-gray-600">راحتی استفاده در مسیرهای طولانی</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Installation Process -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">مراحل نصب</h4>
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۱</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">بررسی خودرو</h5>
+                            <p class="text-gray-600">بررسی سازگاری سیستم با خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۲</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">نصب سیستم</h5>
+                            <p class="text-gray-600">نصب و اتصال قطعات به خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۳</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">تست و تنظیم</h5>
+                            <p class="text-gray-600">تست عملکرد و تنظیم نهایی</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">نحوه عملکرد</h4>
+                    <div class="gap-8 md:flex md:items-center md:justify-between">
+                        <div class="mb-15 md:mb-0">
+                            <h5 class="mb-4 text-xl font-bold">کنترل کلاچ</h5>
+                            <div class="space-y-3">
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="font-bold text-green-600">۱</span>
+                                    </div>
+                                    <p>دستگاه در حالت عادی قرار دارد</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="font-bold text-green-600">۲</span>
+                                    </div>
+                                    <p>دستگاه در حالت کلاچ فعال است</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="size-[300px]" src="./assets/img/SVG/T1.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-10 text-2xl font-bold text-sky-800">
+                        نمونه های بیشتر
+                    </h4>
+                    <div class="mx-auto my-8 max-w-2xl">
+                        <div id="galleryContainer" class="max-h-40 overflow-hidden transition-all duration-700">
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T1/tavan1-3.jpeg"
+                                    alt="tavan1-3" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T1/tavan1-4.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                        </div>
+                        <button id="toggleGalleryBtn"
+                            class="mt-2 rounded bg-sky-600 px-4 py-2 text-white transition hover:bg-sky-700">
+                            بیشتر
+                        </button>
+                    </div>
+                </div>
+                <!-- Price and Order -->
+                <div class="rounded-xl bg-gradient-to-r from-sky-700 to-sky-800 p-8 text-white shadow-lg">
+                    <div class="text-center">
+                        <h4 class="mb-4 text-2xl font-bold">سفارش توان ۱</h4>
+                        <p class="mb-6 text-lg">
+                            برای دریافت قیمت و مشاوره رایگان با ما تماس بگیرید
+                        </p>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <a href="tel:989121317876"
+                                class="rounded-lg bg-yellow-400 px-6 py-3 font-bold text-gray-900 transition hover:bg-yellow-500">
+                                تماس تلفنی
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tavan 2 Section -->
+        <section id="product-2" class="product hidden py-16">
+            <div class="container mx-auto px-4">
+                <!-- Product Overview -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+                        <div>
+                            <div class="mb-4 flex items-center">
+                                <img class="ml-2 size-[70px] rounded-[100%] bg-sky-50 p-2"
+                                    src="./assets/svg/T1-pedal 1.svg" alt="Tavan1" />
+                                <div>
+                                    <h3 class="text-3xl font-bold text-sky-800">توان ۲</h3>
+                                    <p class="text-lg text-gray-600">
+                                        سیستم کنترل دستی گاز و ترمز
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                                سیستم توان ۲ برای افرادی که دارای معلولیت در پای راست هستند
+                                طراحی شده است. این سیستم امکان کنترل همزمان گاز و ترمز را با
+                                استفاده از یک دست فراهم می‌کند و رانندگی ایمن را تضمین
+                                می‌نماید.
+                            </p>
+                            <div class="rounded-lg bg-sky-50 p-4">
+                                <h4 class="mb-2 font-bold text-sky-800">مناسب برای:</h4>
+                                <ul class="space-y-1 text-gray-700">
+                                    <li>• جانبازان با آسیب پای راست</li>
+                                    <li>• افراد با معلولیت موقت پای راست</li>
+                                    <li>
+                                        • کسانی که نمی‌توانند از پدال گاز و ترمز استفاده کنند
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rounded-lg bg-gray-100 p-6">
+                            <img src="./assets/img/T2/1742893552502.png" alt="T2" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Specifications -->
+                <div class="mb-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">مشخصات فنی</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">جنس بدنه:</span>
+                                <span>آهن مقاوم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">وزن:</span>
+                                <span>۵ کیلوگرم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">ابعاد:</span>
+                                <span>۱۵ × ۲ × ۳۰ سانتی‌متر</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">پشتیبانی:</span>
+                                <span>دائمی</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-semibold">سازگاری:</span>
+                                <span>خودروهای اتوماتیک و دنده‌ای</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">
+                            ویژگی‌های منحصر به فرد
+                        </h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">کنترل دوگانه</h5>
+                                    <p class="text-gray-600">
+                                        کنترل مستقل گاز و ترمز با یک دست
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">سیستم ایمنی</h5>
+                                    <p class="text-gray-600">
+                                        جلوگیری از فشار همزمان گاز و ترمز
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">طراحی ارگونومیک</h5>
+                                    <p class="text-gray-600">راحتی استفاده در مسیرهای طولانی</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">حساسیت قابل تنظیم</h5>
+                                    <p class="text-gray-600">تنظیم حساسیت بر اساس نوع خودرو</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">مراحل نصب</h4>
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۱</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">بررسی خودرو</h5>
+                            <p class="text-gray-600">بررسی سازگاری سیستم با خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۲</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">نصب سیستم</h5>
+                            <p class="text-gray-600">نصب و اتصال قطعات به خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۳</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">تست و تنظیم</h5>
+                            <p class="text-gray-600">تست عملکرد و تنظیم نهایی</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How it Works -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">نحوه عملکرد</h4>
+                    <div class="gap-8 md:flex md:items-center md:justify-between">
+                        <div class="mb-15 md:mb-0">
+                            <div class="space-y-3">
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۱</span>
+                                    </div>
+                                    <p>دستگاه در حالت عادی قرار دارد</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۲</span>
+                                    </div>
+                                    <p>در این حالت پدال ترمز فشرده شده و خودرو متوقف می شود</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۳</span>
+                                    </div>
+                                    <p>در این حالت پدال گاز فشرده شده و خودرو حرکت می کند</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">A</span>
+                                    </div>
+                                    <p>ضامن ترمز (ترمز‌دستی)</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">B</span>
+                                    </div>
+                                    <p>ضامن گاز (کروز‌کنترل)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="size-[300px]" src="./assets/img/SVG/T2.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-10 text-2xl font-bold text-sky-800">
+                        نمونه های بیشتر
+                    </h4>
+                    <div class="mx-auto my-8 max-w-full">
+                        <div id="galleryContainer2" class="max-h-40 overflow-hidden transition-all duration-700">
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-1.jpeg"
+                                    alt="tavan1-3" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-10.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-3.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-4.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-5.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-6.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-7.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-8.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T2/tavan2-9.jpeg"
+                                    alt="tavan1-4" />
+                            </div>
+                        </div>
+                        <button id="toggleGalleryBtn2"
+                            class="mt-2 rounded bg-sky-600 px-4 py-2 text-white transition hover:bg-sky-700">
+                            بیشتر
+                        </button>
+                    </div>
+                </div>
+                <!-- Price and Order -->
+                <div class="rounded-xl bg-gradient-to-r from-sky-700 to-sky-800 p-8 text-white shadow-lg">
+                    <div class="text-center">
+                        <h4 class="mb-4 text-2xl font-bold">سفارش توان ۲</h4>
+                        <p class="mb-6 text-lg">
+                            برای دریافت قیمت و مشاوره رایگان با ما تماس بگیرید
+                        </p>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <a href="tel:989121317876"
+                                class="rounded-lg bg-yellow-400 px-6 py-3 font-bold text-gray-900 transition hover:bg-yellow-500">
+                                تماس تلفنی
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tavan 3 Section -->
+        <section id="product-3" class="product hidden py-16">
+            <div class="container mx-auto px-4">
+                <!-- Product Overview -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+                        <div>
+                            <div class="mb-4 flex items-center">
+                                <img class="ml-2 size-[70px] rounded-[100%] bg-sky-50 p-2"
+                                    src="./assets/svg/T1-pedal 1.svg" alt="Tavan1" />
+                                <div>
+                                    <h3 class="text-3xl font-bold text-sky-800">توان ۳</h3>
+                                    <p class="text-lg text-gray-600">
+                                        سیستم کنترل کامل (گاز، ترمز و کلاچ)
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mb-6 text-lg leading-relaxed text-gray-700">
+                                سیستم توان ۳ کامل‌ترین راهکار برای افرادی است که دارای معلولیت
+                                در هر دو پا هستند. این سیستم پیشرفته امکان کنترل کامل خودرو
+                                شامل گاز، ترمز و کلاچ را تنها با استفاده از دست‌ها فراهم
+                                می‌کند.
+                            </p>
+                            <div class="rounded-lg bg-sky-50 p-4">
+                                <h4 class="mb-2 font-bold text-sky-800">مناسب برای:</h4>
+                                <ul class="space-y-1 text-gray-700">
+                                    <li>• جانبازان با آسیب هر دو پا</li>
+                                    <li>• افراد با معلولیت کامل پاها</li>
+                                    <li>• کسانی که نمی‌توانند از هیچ پدالی استفاده کنند</li>
+                                    <li>• افراد نیازمند به کنترل کامل دستی</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rounded-lg bg-gray-100 p-6">
+                            <img src="./assets/img/T3/20250325_123206.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Specifications -->
+                <div class="mb-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">
+                            مشخصات فنی پیشرفته
+                        </h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">جنس بدنه:</span>
+                                <span>آهن مقاوم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">وزن:</span>
+                                <span>۷ کیلوگرم</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">ابعاد:</span>
+                                <span>۱۵ × ۵ × ۵۰ سانتی‌متر</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">پشتیبانی:</span>
+                                <span>دائمی</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-semibold">سازگاری:</span>
+                                <span>انواع خودرو</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-xl bg-white p-6 shadow-lg">
+                        <h4 class="mb-4 text-2xl font-bold text-sky-800">
+                            ویژگی‌های پیشرفته
+                        </h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">کنترل سه‌گانه</h5>
+                                    <p class="text-gray-600">کنترل مستقل گاز، ترمز و کلاچ</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">حساسیت قابل تنظیم</h5>
+                                    <p class="text-gray-600">تنظیم حساسیت بر اساس نوع خودرو</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">طراحی ارگونومیک</h5>
+                                    <p class="text-gray-600">راحتی استفاده در مسیرهای طولانی</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <img class="mt-1 ml-3 h-6 w-6"
+                                    src="./assets/svg/accept-check-good-mark-ok-tick-svgrepo-com.svg" alt="check" />
+                                <div>
+                                    <h5 class="font-bold">سیستم ایمنی</h5>
+                                    <p class="text-gray-600">
+                                        جلوگیری از فشار همزمان گاز٬ترمز و کلاچ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">مراحل نصب</h4>
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۱</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">بررسی خودرو</h5>
+                            <p class="text-gray-600">بررسی سازگاری سیستم با خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۲</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">نصب سیستم</h5>
+                            <p class="text-gray-600">نصب و اتصال قطعات به خودرو</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sky-100">
+                                <span class="text-2xl font-bold text-sky-700">۳</span>
+                            </div>
+                            <h5 class="mb-2 font-bold">تست و تنظیم</h5>
+                            <p class="text-gray-600">تست عملکرد و تنظیم نهایی</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How it Works -->
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-6 text-2xl font-bold text-sky-800">نحوه عملکرد</h4>
+                    <div class="gap-8 md:flex md:items-center md:justify-between">
+                        <div class="mb-15 md:mb-0">
+                            <div class="space-y-3">
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۱</span>
+                                    </div>
+                                    <p>گاز: به صورت گاز موتورسیکلت</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۲</span>
+                                    </div>
+                                    <p>ترمز: با فشار اهرم به سمت جلو عمل ترمز انجام می پذیرد</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">۳</span>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            کلاچ: با فشار اهرم به سمت پایین عمل کلاچ صورت می پذیرد
+                                        </p>
+                                        <p>
+                                            در این حالت کلاچ درگیر است و راننده می تواند دست خود را
+                                            از روی اهرم کلاچ برداشته و دنده را تعویض کند
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">A</span>
+                                    </div>
+                                    <p>ضامن ترمز (ترمز‌دستی)</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <div
+                                        class="ml-3 flex h-8 w-8 items-center justify-center rounded-full bg-green-100">
+                                        <span class="px-4 font-bold text-green-600">B</span>
+                                    </div>
+                                    <p>ضامن گاز (کروز‌کنترل)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="size-[300px]" src="./assets/img/SVG/T3.svg" alt="T3" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8 rounded-xl bg-white p-8 shadow-lg">
+                    <h4 class="mb-10 text-2xl font-bold text-sky-800">
+                        نمونه های بیشتر
+                    </h4>
+                    <div class="mx-auto my-8 max-w-2xl">
+                        <div id="galleryContainer3" class="max-h-40 overflow-hidden transition-all duration-700">
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T3/tavan3-1.jpeg"
+                                    alt="tavan3-3" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T3/tavan3-3.jpeg"
+                                    alt="tavan3-4" />
+                            </div>
+                            <div class="mx-auto my-6 w-full rounded-lg bg-gray-100 object-cover">
+                                <img class="mx-auto rounded-xl p-2" src="./assets/img/T3/tavan3-4.jpeg"
+                                    alt="tavan3-4" />
+                            </div>
+                        </div>
+                        <button id="toggleGalleryBtn3"
+                            class="mt-2 rounded bg-sky-600 px-4 py-2 text-white transition hover:bg-sky-700">
+                            بیشتر
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Price and Order -->
+                <div class="rounded-xl bg-gradient-to-r from-sky-700 to-sky-800 p-8 text-white shadow-lg">
+                    <div class="text-center">
+                        <h4 class="mb-4 text-2xl font-bold">سفارش توان ۳</h4>
+                        <p class="mb-6 text-lg">
+                            برای دریافت قیمت و مشاوره رایگان با ما تماس بگیرید
+                        </p>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <a href="tel:989121317876"
+                                class="rounded-lg bg-yellow-400 px-6 py-3 font-bold text-gray-900 transition hover:bg-yellow-500">
+                                تماس تلفنی
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer>
+            <div
+                class="mt-20 bg-gradient-to-bl from-sky-900 from-50% to-sky-700 to-100% p-5 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 min-[400px]:px-10 md:flex md:items-center md:justify-between md:gap-3.5 md:px-10 lg:px-20">
+                <div class="xl:mx-25">
+                    <div class="mt-10">
+                        <h1 class="text-center text-[32px] font-bold text-white">
+                            تماس با ما
+                        </h1>
+                    </div>
+                    <div>
+                        <h1 class="py-3 pt-8 text-[24px] font-semibold text-white">
+                            اطلاعات تماس
+                        </h1>
+                        <div>
+                            <div class="mb-8 flex items-center justify-start">
+                                <img class="relative top-0 ml-2 size-5" src="./assets/svg/location-983.svg"
+                                    alt="location" />
+                                <div>
+                                    <div>
+                                        <h3 class="text-[18px] font-semibold text-white">
+                                            آدرس:
+                                        </h3>
+                                        <a class="text-[16px] font-medium text-white"
+                                            href="geo:35.5592777671105,53.35120068166503?q=35.5592777671105,53.35120068166503(موقعیت من)">(سمنان٬سمنان٬شهرک
+                                            غرب٬خیابان خودروی جنوبی٬کارگاه توان
+                                            افز)</a>
+                                    </div>
+                                    <div
+                                        class="flex items-center justify-start max-[360px]:flex-col max-[360px]:items-start">
+                                        <p class="text-green-500 hover:cursor-pointer max-[360px]:text-right">
+                                            مشاهده در مسیریاب تلفن همراه
+                                        </p>
+                                        <div class="flex items-center justify-between">
+                                            <img class="size-11" src="./assets/img/Balad-Logo-1030x1030.png"
+                                                alt="Balad" />
+                                            <img class="ml-2 size-7" src="./assets/img/Neshan-Logo-1030x1030.png"
+                                                alt="Neshan" />
+                                            <img class="size-6" src="./assets/svg/google-maps-svgrepo-com.svg"
+                                                alt="google maps" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-8 flex items-center justify-start">
+                                <img class="relative top-0 ml-2 size-5" src="./assets/svg/phone-3114.svg" alt="phone" />
+                                <div>
+                                    <h3 class="text-[18px] font-semibold text-white">تلفن:</h3>
+                                    <div class="flex flex-col">
+                                        <a href="tel:02333300870"
+                                            class="text-[18px] font-medium text-white">۰۲۳-۳۳۳۰۰۸۷۰</a>
+                                        <div class="flex items-center justify-start">
+                                            <a href="tel:09121317876"
+                                                class="text-[18px] font-medium text-white">۰۹۱۲۱۳۱۷۸۷۶</a>
+                                            <div class="mr-2 flex items-center justify-between gap-x-2.5">
+                                                <img src="./assets/svg/arrow left.svg" alt="arrow left" />
+                                                <a href="https://wa.me/989121317876" target="_blank">
+                                                    <img class="size-6"
+                                                        src="./assets/svg/whatsapp-social-media-svgrepo-com.svg"
+                                                        alt="whatsapp" />
+                                                </a>
+                                                <a href="https://te.me/989121317876" target="_blank">
+                                                    <img class="size-6" src="./assets/svg/telegram-svgrepo-com.svg"
+                                                        alt="telegram" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-8 flex items-center justify-start">
+                                <img class="relative top-0 ml-2 size-5" src="./assets/svg/mail-5888.svg" alt="email" />
+                                <div>
+                                    <h3 class="text-[18px] font-semibold text-white">ایمیل:</h3>
+                                    <p class="text-[18px] font-medium text-white">
+                                        tavanafzasemnan64@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-start">
+                                <img class="relative top-0 ml-2 size-5" src="./assets/svg/time-2626.svg" alt="clock" />
+                                <div>
+                                    <h3 class="text-[18px] font-semibold text-white">
+                                        ساعات کاری:
+                                    </h3>
+                                    <p class="text-[16px] font-medium text-white">
+                                        شنبه تا پنجشنبه: ۹صبح تا ۱ظهر
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    class="my-10 rounded-xl shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 max-[360px]:h-[390px] max-[360px]:w-[280px] lg:mx-6 xl:mx-25"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.86085806564392!2d53.351082664471214!3d35.55929004094577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f9a4cf4cacbf187%3A0x89811523e9740cd0!2z2KrZiNin2YYg2KfZgdiy2Kc!5e0!3m2!1sen!2s!4v1751878157255!5m2!1sen!2s"
+                    width="320" height="520" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div
+                class="bg-[#001d31] p-5 min-[400px]:px-14 md:flex md:items-center md:justify-between md:px-10 lg:px-20">
+                <div class="min-[400px]:pb-6 xl:mx-34">
+                    <div class="flex items-center justify-start gap-1.5">
+                        <img class="size-10" src="./assets/svg/TAS 1.svg" alt="Tavanafza logo" />
+                        <h1 class="text-[20px] font-bold text-white">
+                            کـارگـاه تـوان افـزا
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="py-2 text-[17px] font-medium text-gray-400">
+                            ارائه دهنده سیستم‌های کنترل دستی خودرو برای جانبازان و معلولین
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-2 flex flex-col items-center justify-center xl:mx-34">
+                    <p class="text-white">© ۱۴۰۴ تمامی حقوق محفوظ است.</p>
+                    <p class="text-gray-400">طراحی و توسعه: گروه توان افزا</p>
+                </div>
+            </div>
+        </footer>
     </main>
-      <script src="./tavan1,2,3.js"></script>
+    <script src="./tavan1,2,3.js"></script>
+    <script src="./carousel .js"></script>
 </body>
 
 </html>

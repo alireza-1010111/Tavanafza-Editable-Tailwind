@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       typeSpeed: 120,
       backSpeed: 40,
       loop: true,
-      backDelay: 1000,
+      backDelay: 7000,
       showCursor: false,
     });
   }, 1000);
