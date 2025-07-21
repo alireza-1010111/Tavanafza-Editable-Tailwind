@@ -10,23 +10,16 @@
     <title>تــوان‌ افــزا</title>
 </head>
 
-<body class="min-w-[300px] scroll-smooth">
+<body class="min-w-[300px] scroll-smooth font-sans">
+    <!-- Access bar -->
     <header>
         <nav
-            class="fixed z-10 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-1.5 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] min-[400px]:px-2 md:px-10 lg:h-[90px] lg:px-20 xl:px-40">
-            <!-- Navbar Logo -->
-            <div class="animate-slideleft flex h-[60px] items-center px-6 md:px-0 lg:h-[120px] xl:mx-4">
-                <img class="size-[50px] lg:size-[60px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo" />
-                <h1
-                    class="text-[26px] font-semibold text-white max-[360px]:text-[24px] md:font-bold md:text-shadow-lg md:text-shadow-sky-700 lg:text-[40px] xl:text-[50px]">
-                    تـوان‌ افـزا
-                </h1>
-            </div>
+            class="fixed z-50 flex h-[70px] w-full items-center justify-between bg-gradient-to-br from-sky-950/95 from-55% to-sky-900/95 to-100% px-6 shadow-lg/40 shadow-gray-900 backdrop-blur-[20px] lg:h-[90px] lg:px-16 xl:px-30">
             <!-- mobile menu -->
-            <div class="relative z-50 flex flex-row-reverse items-center justify-between">
+            <div class="relative z-50 flex lg:hidden flex-row-reverse items-center justify-between">
                 <input type="checkbox" id="hamburger" class="peer hidden" />
                 <label for="hamburger">
-                    <img class="px-6 pt-0 md:px-0 lg:hidden" src="./assets/svg/Hamburger menu.svg" alt="Hamburger" />
+                    <img class="lg:hidden" src="./assets/svg/Hamburger menu.svg" alt="Hamburger" />
                 </label>
                 <div
                     class="fixed top-0 right-0 z-50 flex h-[1440px] translate-x-[300%] flex-col bg-gradient-to-bl from-sky-900 from-40% to-sky-700 to-80% shadow-2xl shadow-sky-200 backdrop-blur-lg transition-transform delay-75 duration-700 ease-in-out *:px-3.5 *:py-4 *:pl-10 *:font-semibold *:text-white peer-checked:translate-x-0 md:w-2/5 *:md:text-[20px] *:xl:text-[24px]">
@@ -43,7 +36,7 @@
                         <img src="./assets/svg/arrow-down-angle-svgrepo-com copy.svg" alt="arrow down"
                             class="relative -top-4.5 mr-auto -ml-4 size-3 transition-all peer-checked:rotate-180 md:-top-5 md:size-4" />
                         <div
-                            class="animate-slideDown2 my-2 hidden flex-col divide-y-[1px] divide-white/30 rounded-[10px] border-t-4 border-yellow-300 bg-[#1F3A56] shadow-2xl shadow-black backdrop-blur-[20px] transition-all *:text-white peer-checked:flex">
+                            class="my-2 hidden flex-col divide-y-[1px] divide-white/30 rounded-[10px] border-t-4 border-yellow-300 bg-[#1F3A56] shadow-2xl shadow-black backdrop-blur-[20px] transition-all *:text-white peer-checked:flex">
                             <a id="tavan1" class="py-2 text-center" href="./tavan1,2,3.html">تــوان‌ ۱</a>
                             <a id="tavan2" class="py-2 text-center" href="./tavan1,2,3.html">تــوان‌ ۲</a>
                             <a id="tavan3" class="py-2 text-center" href="./tavan1,2,3.html">تــوان‌۳</a>
@@ -55,18 +48,18 @@
             </div>
             <!-- desktop menu -->
             <div
-                class="*:mim-w-full animate-slideright hidden items-center justify-between gap-x-8 px-[15px] *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 *:focus:transition-all lg:flex">
+                class="animate-slideright hidden lg:items-center gap-x-8 *:rounded-[10px] *:px-1 *:text-center *:transition *:delay-150 *:duration-300 *:ease-in-out *:focus:scale-90 *:focus:bg-[#1F3A56F2] *:focus:text-yellow-300 *:focus:transition-all lg:flex">
                 <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
                     href="./index.html">صفحه نخست</a>
                 <div class="group relative">
-                    <div class="flex py-5">
+                    <div class="flex py-12">
                         <a class="font-medium text-white lg:text-[16px] xl:text-[18px]" href="./tavan1,2,3.html">سیستم
                             های کنترل دستی</a>
                         <img class="mt-2 mr-1 size-3.5" src="./assets/svg/arrow-down-angle-svgrepo-com.svg"
                             alt="arrow down" />
                     </div>
                     <div
-                        class="divide absolute top-20 flex w-full translate-y-[-700px] flex-col divide-y-[1px] divide-black/20 rounded-[10px] border-t-4 border-yellow-300 bg-sky-700/30 opacity-0 backdrop-blur-[40px] transition-all delay-75 duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100">
+                        class="divide absolute -z-50 top-0 flex w-full translate-y-[80px] opacity-0 flex-col divide-y-[1px] divide-black/20 rounded-[10px] border-t-4 border-yellow-300 bg-sky-700/30 backdrop-blur-[40px] transition-all delay-75 duration-700 ease-in-out group-hover:translate-y-30 group-hover:opacity-100">
                         <a id="tavan1"
                             class="rounded-[10px] py-2 text-center text-[20px] font-semibold text-sky-100 transition-all delay-75 duration-700 hover:bg-sky-900 hover:text-white"
                             href="./tavan1,2,3.html">تــوان ۱</a>
@@ -83,54 +76,64 @@
                 <a class="font-medium text-white hover:-translate-y-0.5 hover:scale-101 hover:text-yellow-300 lg:text-[16px] xl:text-[18px]"
                     href="#contactUs">ارتباط با ما</a>
             </div>
+            <!-- Navbar Logo -->
+            <div class="flex h-[60px] items-center lg:h-[90px]">
+                <img class="size-[50px] lg:size-[60px]" src="./assets/svg/TAS 1.svg" alt="TAS Logo" />
+                <h1
+                    class="text-[26px] font-semibold text-white max-[360px]:text-[24px] md:font-bold text-shadow-lg text-shadow-sky-600 lg:text-[40px] xl:text-[50px]">
+                    تـوان‌ افـزا
+                </h1>
+            </div>
         </nav>
     </header>
+
     <main class="relative min-w-[300px] pt-[70px] lg:pt-[90px]">
-        <!-- Banner background -->
+        <!-- Header -->
         <section class="mb-[40px] md:mb-[100px]">
             <div
-                class="relative bg-gradient-to-bl from-sky-950 from-55% to-sky-600 to-100% px-8 pb-20 max-[540px]:flex max-[540px]:flex-col max-[540px]:items-center min-[470px]:flex min-[470px]:items-center min-[470px]:justify-between md:mt-0 md:px-10 md:pt-15 md:pb-36 lg:px-20 xl:px-44 xl:pt-48 xl:pb-72">
-                <div class="w-full">
+                class="relative bg-gradient-to-bl from-sky-950 from-55% to-sky-600 to-100% px-6 pb-20 max-[580px]:flex max-[580px]:flex-col max-[580px]:items-center min-[470px]:flex min-[470px]:items-center min-[470px]:justify-between md:mt-0 md:pt-15 md:pb-36 lg:px-16 xl:px-30 xl:pt-48 xl:pb-72">
+                <div class="w-fit lg:-mr-10 xl:mr-0">
                     <h1
-                        class="animate-visibleity2 w-full px-0 pt-16 text-[50px] font-bold text-white max-[360px]:text-4xl md:w-full md:text-[54px] md:leading-20 lg:text-[64px] xl:text-[74px]">
-                        شرکت تـوان‌افـزا
+                        class="animate-visibleity2 w-[300px] text-center px-0 pt-16 text-[50px] font-bold text-white max-[360px]:text-4xl md:w-fit md:text-[54px] md:leading-20 lg:text-[64px] xl:text-[74px]">
+                        کارگاه تـوان‌افـزا
                     </h1>
                     <p id="typewriter"
-                        class="w-[270px] px-0 pt-7 text-justify text-[22px] font-medium text-gray-300 max-[360px]:pl-16 max-[360px]:text-[18px] md:w-[320px] md:px-0 md:text-[24px] lg:w-[430px] lg:pt-15 lg:pl-15 lg:text-[28px] xl:pl-0"></p>
-                    <div class="mt-6 flex md:mt-10 md:px-0">
+                        class="w-[270px] mx-auto lg:px-9 xl:px-0  max-[360px]:px-9 pt-7 text-justify text-[22px] font-medium text-gray-300 max-[360px]:text-[18px] md:w-[300px] md:text-[24px] lg:w-[430px] lg:pt-15 lg:text-[28px] xl:pl-0"></p>
+                    <div class="mt-6 flex items-center lg:px-9 xl:px-0 justify-between min-[360px]:mx-2 max-[360px]:justify-center max-[480px]:gap-4 md:mt-10 md:px-0">
                         <button
-                            class="h-[45px] w-[140px] rounded-[10px] bg-yellow-500 font-bold shadow-lg/20 inset-shadow-sm shadow-white inset-shadow-black transition-transform hover:-translate-y-0.5 hover:scale-101 max-[360px]:h-[40px] max-[360px]:w-[120px] md:h-[50px] md:w-[160px]">
+                            class="h-[45px] w-[140px] rounded-[10px] bg-yellow-500 font-bold shadow-lg/20 inset-shadow-sm shadow-white inset-shadow-black transition-transform hover:-translate-y-0.5 hover:scale-101 max-[360px]:h-[40px] max-[360px]:w-[120px] md:h-[50px] md:w-[140px] lg:w-[190px]">
                             <a class="text-[15px] transition-all md:text-[18px]" href="#goProduct">مشاهده محصولات</a>
                         </button>
                         <button
-                            class="mr-4 h-[45px] w-[100px] rounded-[10px] bg-white font-bold shadow-lg/20 inset-shadow-sm shadow-white inset-shadow-black transition-transform hover:-translate-y-0.5 hover:scale-101 max-[360px]:h-[40px] max-[360px]:w-[75px] md:h-[50px] md:w-[120px]">
+                            class="h-[45px] w-[100px] rounded-[10px] bg-white font-bold shadow-lg/20 inset-shadow-sm shadow-white inset-shadow-black transition-transform hover:-translate-y-0.5 hover:scale-101 max-[360px]:h-[40px] max-[360px]:w-[75px] md:h-[50px] md:w-[120px] lg:w-[140px]">
                             <a class="text-[15px] text-sky-900 md:text-[18px]" href="#contactUs">تماس با ما</a>
                         </button>
                     </div>
                 </div>
-                <div class="px-4">
-                    <img class="relative mr-auto size-[300px] pt-15 min-[540px]:mr-6 md:size-[360px] md:pt-15"
-                        src="./assets/svg/undraw_car-repair_wski.svg" alt="Banner logo" />
+                <div class="">
+                    <img class="relative mr-auto size-[300px] pt-15 md:size-[360px] md:pt-15"
+                        src="./assets/svg/man-drive.svg" alt="Banner logo" />
                 </div>
             </div>
         </section>
+
         <!-- Manual control systems -->
-        <section class="mb-12">
-            <div id="goProduct" class="pt-20 shadow-sm/40 shadow-white min-[400px]:px-2 sm:px-2">
-                <div class="-mb-11 flex flex-col items-center justify-center py-6">
+        <section class="pb-12">
+            <div id="goProduct" class="pt-20 shadow-sm/40 shadow-white">
+                <div class="flex flex-col items-center justify-center pb-6">
                     <h1
-                        class="px-6 text-center text-[32px] font-semibold text-sky-900 md:text-[42px] md:font-bold lg:text-[48px] xl:text-[54px] xl:font-black">
+                        class="text-center text-[32px] font-semibold text-sky-900 md:text-[42px] md:font-bold lg:text-[48px] xl:text-[54px] xl:font-black">
                         سیستم های کنترل‌دستی
                     </h1>
                     <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
                 <div
-                    class="grid grid-cols-1 px-2 pb-14 min-[640px]:grid-cols-2 min-[1240px]:grid-cols-3 sm:px-4 md:mx-0 md:px-0 lg:px-16 xl:mx-20 xl:px-0">
-                    <!-- Tavan1 -->
+                    class="grid grid-cols-1 gap-8 px-6 py-14 min-[640px]:grid-cols-2 min-[1240px]:grid-cols-3 lg:px-16 xl:px-30  *:duration-500">
+                    <!-- Tavan 1 Section-->
                     <div
-                        class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-lg/20 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
-                        <div class="">
-                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
+                        class="m-auto flex w-full flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800 transition-transform hover:scale-101">
+                        <div>
+                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-md/30 inset-shadow-sm shadow-gray-400 inset-shadow-white"
                                 src="./assets/svg/T1-pedal 1.svg" alt="Tavan1" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
@@ -161,16 +164,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div
-                            class="mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2">
-                            <a class="text-white" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
-                        </div>
+                            <a class="text-white mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
                     </div>
-                    <!-- Tavan2 -->
+
+                    <!-- Tavan 2 Section-->
                     <div
-                        class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-md/25 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
+                        class="m-auto flex w-full flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800 transition-transform hover:scale-101">
                         <div>
-                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
+                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-md/30 inset-shadow-sm shadow-gray-400 inset-shadow-white"
                                 src="./assets/svg/T2-pedal 1.svg" alt="Tavan2" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
@@ -203,16 +204,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div
-                            class="mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2">
-                            <a class="text-white" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
-                        </div>
+                        <a class="text-white mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
                     </div>
-                    <!-- Tavan3 -->
+
+                    <!-- Tavan 3 Section-->
                     <div
-                        class="m-auto mt-10 flex w-[90%] flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-md/25 inset-shadow-sm/50 shadow-black inset-shadow-gray-700 transition-transform hover:scale-101 lg:mt-14">
+                        class="m-auto flex w-full flex-col items-center rounded-2xl border-t-[15px] border-sky-700 bg-white py-5 pb-8 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800 transition-transform hover:scale-101">
                         <div>
-                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-lg/20 inset-shadow-sm shadow-black inset-shadow-white"
+                            <img class="m-auto mt-7 mb-5 size-[70px] rounded-[100%] bg-sky-50 p-[5px] shadow-md/30 inset-shadow-sm shadow-gray-400 inset-shadow-white"
                                 src="./assets/svg/T3-pedal 1.svg" alt="Tavan3" />
                         </div>
                         <div class="mt-4 flex flex-col items-center xl:my-2">
@@ -245,26 +244,24 @@
                                 </p>
                             </div>
                         </div>
-                        <div
-                            class="mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2">
-                            <a class="text-white" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
-                        </div>
+                        <a class="text-white mx-auto my-3 w-[85%] cursor-pointer rounded-lg bg-sky-700 p-2 text-center shadow-md/25 inset-shadow-sm/60 shadow-gray-700 inset-shadow-white md:text-[17px] md:font-semibold lg:text-[18px] xl:my-2" href="./tavan1,2,3.html">اطلاعات بیشتر</a>
                     </div>
                 </div>
             </div>
+
             <!-- Characteristics of manual control systems -->
             <div
-                class="mt-10 bg-gray-100 px-6 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-white inset-shadow-gray-700 min-[400px]:px-4 md:px-10 md:pt-20 md:pb-36 lg:px-20">
-                <div class="mx-2 flex flex-col items-center justify-center pt-10 md:pt-14 md:pb-5">
+                class="mt-10 bg-gray-100 px-6 py-20 shadow-sm/40 inset-shadow-sm/40 shadow-white inset-shadow-gray-700 lg:px-16 xl:px-30">
+                <div class="flex flex-col items-center justify-center py-6 pt-10 md:py-14">
                     <h1
                         class="text-center text-[30px] font-bold text-sky-800 md:text-[38px] md:font-black xl:text-[54px]">
                         ویژگی‌های سیستم‌های کنترل‌دستی توان‌افزا
                     </h1>
                     <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
-                <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:mx-[116px]">
+                <div class="mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 *:hover:scale-101 *:transition-all *:duration-500">
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/safe-zone-svgrepo-com.svg" alt="safe" />
                         </div>
@@ -279,7 +276,7 @@
                         </div>
                     </div>
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/settings-5-svgrepo-com.svg" alt="settings" />
                         </div>
@@ -294,7 +291,7 @@
                         </div>
                     </div>
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/like-svgrepo-com.svg" alt="like" />
                         </div>
@@ -309,7 +306,7 @@
                         </div>
                     </div>
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/people-community-svgrepo-com.svg" alt="people" />
                         </div>
@@ -323,7 +320,7 @@
                         </div>
                     </div>
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/arrow-trend-up-svgrepo-com.svg" alt="arrow-trend-up" />
                         </div>
@@ -338,7 +335,7 @@
                         </div>
                     </div>
                     <div
-                        class="mx-auto mt-10 w-[90%] rounded-lg bg-white shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700">
+                        class="mx-auto w-full rounded-lg bg-white shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="m-6 w-fit rounded-full bg-sky-50 p-3">
                             <img src="./assets/svg/support-svgrepo-com.svg" alt="support" />
                         </div>
@@ -354,22 +351,23 @@
                 </div>
             </div>
         </section>
+
         <section>
             <!-- Comments -->
-            <div class="min-[400px]:px-4 lg:px-10">
-                <div class="flex flex-col items-center justify-center">
+            <div class="px-6 lg:px-16 xl:px-30">
+                <div class="flex flex-col items-center justify-center py-6">
                     <h1 class="text-center text-[32px] font-bold text-sky-800 lg:font-bold xl:text-[54px]">
                         نظرات مشتریان
                     </h1>
                     <img src="./assets/svg/arrow down.svg" alt="arrow down" />
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 md:px-10 lg:grid-cols-3 xl:mx-32">
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
                     <div
-                        class="m-10 rounded-md bg-gray-50 px-5 py-6 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 md:mx-3 md:my-3">
+                        class="rounded-md bg-gray-50 px-4 py-4 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="size-10 rounded-full bg-sky-200">
                                 <p class="text-center leading-10 font-semibold text-sky-800">
-                                    م‌ط
+                                    م‌
                                 </p>
                             </div>
                             <div>
@@ -378,42 +376,38 @@
                         </div>
                         <div>
                             <p class="text-[16px] font-medium text-gray-500">
-                                "سیستم توان ۳ زندگی من را متحول کرده است. با وجود معلولیت شدید
-                                در هر دو پا، اکنون می‌توانم به راحتی رانندگی کنم. از کارگاه
-                                توان افزا بسیار سپاسگزارم."
+                                "بعد از نصب سیستم توان ۱، رانندگی برای من بسیار راحت‌تر شده. کیفیت ساخت عالی و عملکرد دقیق سیستم واقعاً قابل تحسین است"
                             </p>
                         </div>
                     </div>
                     <div
-                        class="m-10 rounded-md bg-gray-50 px-5 py-6 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 md:mx-3 md:my-3">
+                        class="rounded-md bg-gray-50 px-4 py-4 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="size-10 rounded-full bg-sky-200">
                                 <p class="text-center leading-10 font-semibold text-sky-800">
-                                    م‌ط
+                                    ع
                                 </p>
                             </div>
                             <div>
-                                <p class="text-[18px] font-semibold">محمد رضایی</p>
+                                <p class="text-[18px] font-semibold">علی محمدی</p>
                             </div>
                         </div>
                         <div>
                             <p class="text-[16px] font-medium text-gray-500">
-                                "سیستم توان ۳ زندگی من را متحول کرده است. با وجود معلولیت شدید
-                                در هر دو پا، اکنون می‌توانم به راحتی رانندگی کنم. از کارگاه
-                                توان افزا بسیار سپاسگزارم."
+                                "سیستم توان ۲ به من امکان داده تا بدون نیاز به کمک دیگران رانندگی کنم. خدمات پس از فروش عالی و پشتیبانی فنی سریع از نقاط قوت این مجموعه است."
                             </p>
                         </div>
                     </div>
                     <div
-                        class="m-10 rounded-md bg-gray-50 px-5 py-6 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 md:mx-3 md:my-3">
+                        class="rounded-md bg-gray-50 px-4 py-4 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800">
                         <div class="flex items-center justify-start gap-2.5 pb-4">
                             <div class="size-10 rounded-full bg-sky-200">
                                 <p class="text-center leading-10 font-semibold text-sky-800">
-                                    م‌ط
+                                    ح
                                 </p>
                             </div>
                             <div>
-                                <p class="text-[18px] font-semibold">محمد رضایی</p>
+                                <p class="text-[18px] font-semibold">حسین کریمی</p>
                             </div>
                         </div>
                         <div>
@@ -428,12 +422,13 @@
             </div>
         </section>
     </main>
-    <!-- contact us -->
+
+    <!-- Contact footer -->
     <footer id="contactUs">
         <div
-            class="mt-20 bg-gradient-to-bl from-sky-900 from-50% to-sky-700 to-100% p-5 pb-20 shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 min-[400px]:px-10 md:flex md:items-center md:justify-between md:gap-3.5 md:px-10 lg:px-20">
-            <div class="xl:mx-25">
-                <div class="mt-10">
+            class="mt-20 bg-gradient-to-bl from-sky-900 from-50% to-sky-700 to-100% px-6 pb-20 shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800 md:flex md:items-center md:justify-between md:gap-3.5 lg:px-16 xl:px-30">
+            <div>
+                <div class="mt-10 pt-14">
                     <h1 class="text-center text-[32px] font-bold text-white">
                         تماس با ما
                     </h1>
@@ -456,9 +451,9 @@
                                 </div>
                                 <div
                                     class="flex items-center justify-start max-[360px]:flex-col max-[360px]:items-start">
-                                    <p class="text-green-500 hover:cursor-pointer max-[360px]:text-right">
+                                    <a class="text-green-500 hover:cursor-pointer max-[360px]:text-right" href="geo:35.5592777671105,53.35120068166503?q=35.5592777671105,53.35120068166503(موقعیت من)">
                                         مشاهده در مسیریاب تلفن همراه
-                                    </p>
+                                    </a>
                                     <div class="flex items-center justify-between">
                                         <img class="size-11" src="./assets/img/Balad-Logo-1030x1030.png" alt="Balad" />
                                         <img class="ml-2 size-7" src="./assets/img/Neshan-Logo-1030x1030.png"
@@ -486,7 +481,7 @@
                                                     src="./assets/svg/whatsapp-social-media-svgrepo-com.svg"
                                                     alt="whatsapp" />
                                             </a>
-                                            <a href="https://te.me/989121317876" target="_blank">
+                                            <a href="https://t.me/Hamidrezadanaei" target="_blank">
                                                 <img class="size-6" src="./assets/svg/telegram-svgrepo-com.svg"
                                                     alt="telegram" />
                                             </a>
@@ -519,13 +514,13 @@
                 </div>
             </div>
             <iframe
-                class="my-10 rounded-xl shadow-sm/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-700 max-[360px]:h-[390px] max-[360px]:w-[280px] lg:mx-6 xl:mx-25"
+                class="my-10 mt-40 rounded-xl shadow-lg/40 inset-shadow-sm/40 shadow-gray-700 inset-shadow-gray-800 max-[360px]:h-[390px] max-[360px]:w-[280px]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.86085806564392!2d53.351082664471214!3d35.55929004094577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f9a4cf4cacbf187%3A0x89811523e9740cd0!2z2KrZiNin2YYg2KfZgdiy2Kc!5e0!3m2!1sen!2s!4v1751878157255!5m2!1sen!2s"
                 width="320" height="520" style="border: 0" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="bg-[#001d31] p-5 min-[400px]:px-10 md:flex md:items-center md:justify-between md:px-10 lg:px-20">
-            <div class="min-[400px]:pb-6 xl:mx-34">
+        <div class="bg-[#001d31] px-6 py-4 md:flex md:items-center md:justify-between lg:px-16 xl:px-30">
+            <div class="min-[400px]:pb-6">
                 <div class="flex items-center justify-start gap-1.5">
                     <img class="size-10" src="./assets/svg/TAS 1.svg" alt="Tavanafza logo" />
                     <h1 class="text-[20px] font-bold text-white">
@@ -538,14 +533,16 @@
                     </p>
                 </div>
             </div>
-            <div class="mt-2 flex flex-col items-center justify-center xl:mx-34">
+            <div class="mt-2 flex flex-col items-center justify-center">
                 <p class="text-white">© ۱۴۰۴ تمامی حقوق محفوظ است.</p>
                 <p class="text-gray-400">طراحی و توسعه: گروه توان افزا</p>
             </div>
         </div>
     </footer>
+
+    <!-- go to top btn -->
     <button id="scrollToTopBtn"
-        class="hidden fixed bottom-6 right-10 bg-sky-700 text-white px-4 py-4 rounded-full shadow-lg transition-opacity duration-300 z-50">
+        class="fixed right-10 bottom-6 z-50 hidden rounded-full bg-sky-700 px-4 py-4 text-white shadow-lg transition-opacity duration-300">
         ↑ بالا
     </button>
     <script src="./js/scrollBtn.js"></script>

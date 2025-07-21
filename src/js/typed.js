@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
       strings: [
         "راهکاری مطمئن برای رانندگی آسان و ایمن برای جانبازان و افراد دارای معلولیت",
       ],
-      typeSpeed: 120,
+      typeSpeed: 70,
       backSpeed: 40,
       loop: true,
       backDelay: 7000,
