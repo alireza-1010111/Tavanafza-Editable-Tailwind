@@ -1871,6 +1871,16 @@
       padding-top: calc(var(--spacing) * 15);
     }
   }
+  .md\:pt-28 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 28);
+    }
+  }
+  .md\:pt-52 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 52);
+    }
+  }
   .md\:pb-36 {
     @media (width >= 48rem) {
       padding-bottom: calc(var(--spacing) * 36);
